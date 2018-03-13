@@ -1,0 +1,682 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	height: 100%;
+	margin: 0px 0px;
+}
+
+.transition {
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#topBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	left: 94%;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: red;
+	font-family: 'Coming Soon';
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 15px;
+}
+
+#linkTopBtn {
+	text-decoration: none;
+	color: white;
+}
+
+#topBtn:hover {
+	background-color: #ed1c1c;
+}
+
+.menu {
+	font-family: 'Montserrat';
+	font-size: 15px;
+	background-color: lightgrey;
+	position: fixed;
+	top: 12px;
+	left: 1%;
+	padding: 10px;
+	border-radius: 10px;
+	width: 10%;
+	text-align: center;
+	cursor: pointer;
+	z-index: 1;
+	list-style-type: none;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+}
+
+.dropdown-content a{
+	font-family: 'Montserrat';
+	font-size: 15px;
+	background-color: lightgrey;
+	padding: 10px;
+	border-radius: 10px;
+	width: 10%;
+	text-align: center;
+	cursor: pointer;
+	position: fixed;
+	left: 1%;
+	text-decoration: none;
+	color: black;
+	z-index: 1;
+}
+
+.hideContent{
+	display: none;
+}
+
+#btn1 {
+	position: fixed;
+	top: 65px;
+	left: 1%;
+}
+
+#btn2 {
+	position: fixed;
+	top: 115px;
+	left: 1%;
+}
+
+#btn3 {
+	position: fixed;
+	top: 165px;
+	left: 1%;
+}
+
+#btn4 {
+	position: fixed;
+	top: 215px;
+	left: 1%;
+}
+
+#btn5 {
+	position: fixed;
+	top: 265px;
+	left: 1%;
+}
+
+.menu:hover {
+	background-color: #e5eff9;
+}
+
+#btn1:hover {
+	background-color: #e5eff9;
+}
+
+#btn2:hover {
+	background-color: #e5eff9;
+}
+
+#btn3:hover {
+	background-color: #e5eff9;
+}
+
+#btn4:hover {
+	background-color: #e5eff9;
+}
+
+#btn5:hover {
+	background-color: #e5eff9;
+}
+
+.show {
+	display: block;
+}
+
+.welcome {
+	background-image: url("Website Background.JPG");
+	height: 103%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#introduction {
+	position: relative;
+	left: 19%;
+	font-family: "Poiret One";
+	color: white;
+	font-size: 50px;
+	top: 200px;
+	width: 13%;
+}
+
+#fullname {
+	position: relative;
+	left: 18%;
+	font-family: "Poiret One";
+	color: white;
+	font-size: 90px;
+	top: 200px;
+	width: 50%;
+}
+
+.aboutme {
+	background-image: url("Beach.jpeg");
+	height: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.whoiam h1 {
+	font-family: "Coming Soon";
+	color: black;
+	letter-spacing: 4px;
+	font-size: 30px;
+	width: 28%;
+	position: relative;
+	left: 3%;
+	top: -570px;
+	background-color: aquamarine;
+	padding: 21px;
+	padding-left: 14%;
+	padding-right: 0%;
+	border-radius: 25px
+}
+
+.aboutMeContent {
+	font-family: "Coming Soon";
+	line-height: 400%;
+	text-align: center;
+	width: 37%;
+}
+
+#contentLine1 {
+	position: relative;
+	top: -520px;
+	left: 15%;
+}
+
+#contentLine2 {
+	position: relative;
+	top: -470px;
+	left: 15%;
+}
+
+#contentLine3 {
+	position: relative;
+	top: -420px;
+	left: 15%;
+}
+
+.aboutMeContent p {
+	font-size: 25px;
+	color: black;
+	background-color: azure;
+	padding: 10px;
+	border-radius: 25px;
+}
+
+.myGoals {
+	top: 900px;
+}
+
+.myGoals hr {
+	border-color: black;
+}
+
+.aspirations h1 {
+	font-family: "Coming Soon";
+	color: black;
+	letter-spacing: 4px;
+	font-size: 30px;
+	width: 28%;
+	position: relative;
+	left: 55%;
+	top: -911px;
+	background-color: aquamarine;
+	padding: 21px;
+	padding-left: 7%;
+	padding-right: 7%;
+	border-radius: 25px
+}
+
+.careerGoals {
+	font-family: "Coming Soon";
+	line-height: 400%;
+	text-align: center;
+	width: 37%;
+}
+
+.careerGoals p {
+	font-size: 25px;
+	color: black;
+	background-color: azure;
+	padding: 10px;
+	border-radius: 25px;
+}
+
+#careerLine1 {
+	position: relative;
+	top: -861px;
+	left: 157%;
+}
+
+#careerLine2 {
+	position: relative;
+	top: -811px;
+	left: 157%;
+}
+
+#careerLine3 {
+	position: relative;
+	top: -761px;
+	left: 157%;
+}
+
+.workHistory {
+	background-image: url("Toronto.jpeg");
+	height: 180%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -685px;
+}
+
+.whatIveDone h3 {
+	font-family: "Montserrat";
+	font-size: 35px;
+	color: white;
+	position: relative;
+	top: 80px;
+	left: 28%;
+	width: 29%;
+	background-color: cornflowerblue;
+	padding: 21px;
+	padding-left: 7%;
+	padding-right: 7%;
+	border-radius: 25px
+}
+
+#lineseven {
+	border-color: white;
+	width: 3%;
+	position: relative;
+	top: 37px;
+	left: 65.5%;
+}
+
+#lineeight {
+	border-color: white;
+	width: 3%;
+	position: relative;
+	top: 35px;
+	left: 30%;
+}
+
+.workExperience {
+	font-family: 'Montserrat';
+	color: white;
+}
+
+.workExperience h3 {
+	font-size: 25px;
+	position: relative;
+	left: 45%;
+	background-color: cornflowerblue;
+	padding: 3px;
+	padding-left: 1%;
+	padding-right: 1%;
+	border-radius: 25px
+}
+
+#veriday {
+	width: 11%;
+	position: relative;
+	top: 133px;
+}
+
+#website {
+	width: 20%;
+	position: relative;
+	top: 208px;
+}
+
+#entsoc {
+	width: 28%;
+	position: relative;
+	top: 344px;
+}
+
+.workExperience p {
+	font-size: 13px;
+	position: relative;
+	left: 45%;
+	background-color: yellowgreen;
+	padding: 3px;
+	padding-left: 1%;
+	padding-right: 1%;
+	border-radius: 25px
+}
+
+#veridayTitle {
+	position: relative;
+	top: 145px;
+	width: 19%;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+#websiteTitle {
+	position: relative;
+	top: 220px;
+	width: 23%;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+#entsocTitle {
+	position: relative;
+	top: 355px;
+	width: 14%;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+.workPictures img {
+	position: absolute;
+	left: 28%;
+}
+
+#veridayPic {
+	border-radius: 25px;
+	top: 223px;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+#websitePic {
+	border-radius: 25px;
+	top: 510px;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+#entsocPic {
+	border-radius: 25px;
+	top: 802px;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+#veridayDescription {
+	width: 24%;
+	position: relative;
+	top: 160px;
+	left: 45%;
+	background-color: gray;
+	line-height: 30px;
+}
+
+#websiteDescription {
+	width: 24%;
+	position: relative;
+	top: 235px;
+	left: 45%;
+	background-color: gray;
+	line-height: 30px;	
+}
+
+#entsocDescription {
+	width: 24%;
+	position: relative;
+	top: 370px;
+	left: 45%;
+	background-color: gray;
+	line-height: 30px;	
+}
+
+.skillset h2 {
+	font-family: "Montserrat";
+	color: black;
+	letter-spacing: 10px;
+	font-size: 30px;
+	width: 18%;
+	position: relative;
+	left: 41.35%;
+	top: -580px;
+}
+
+#skillSet {
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+#linefive {
+	position: relative;
+	width: 280px;
+	top: -640px;
+	left: 39.4%;
+	border-color: black;
+}
+
+#linesix {
+	position: relative;
+	width: 280px;
+	top: -560px;
+	left: 39.4%;
+	border-color: black;
+}
+
+#mySkills {
+	font-family: "Montserrat";
+	font-size: 20px;
+	letter-spacing: 2px;
+	position: relative;
+	top: -530px;
+	width: 31%;
+	left: 35.5%;
+}
+
+.theSkills p{
+	font-family: "Montserrat";
+	font-size: 30px;
+	letter-spacing: 4px;
+	position: relative;
+}
+
+#skill1 {
+	top: -496px;
+	left: 15%;
+	width: 10%;
+}
+
+#skill2 {
+	top: -533px;
+	left: 35%;
+	width: 7%;
+}
+
+#skill3 {
+	top: -570px;
+	left: 52%;
+	width: 15%;
+}
+
+#skill4 {
+	top: -607px;
+	left: 77%;
+	width: 10%;
+}
+
+.skillPictures img {
+	position: absolute;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+#HTML5 {
+	top: 2750px;
+	left: 12.2%;
+}
+
+#CSS3 {
+	top: 2750px;
+	left: 33%;
+}
+
+#JavaScript {
+	top: 2742px;
+	left: 51%;
+}
+
+#jQuery {
+	top: 2773px;
+	left: 72%;
+}
+
+.ballFrisbeeGym {
+	background-image: url("plants.jpeg");
+	height: 150%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -340px;
+}
+
+.recTitle h4 {
+	font-family:'Montserrat';
+	font-size: 50px;
+	position: relative;
+	left: 36%;
+	top: 70px;
+	color: white;
+	width: 26%;
+}
+
+.recPics img {
+	position: absolute;
+	top: 200px;
+}
+
+#soccer {
+	left: 4%;
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+#frisbee10 {
+	left: 28%;
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+#frisbee12 {
+	left: 52%;
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+#frisbeeUproar {
+	left: 76%;
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+.contact {
+	height: 35%;
+	position: relative;
+	top: -280px;
+}
+
+.contactMe {
+	font-family: 'Comfortaa';
+}
+
+.contactMe p {
+	font-size: 20px;
+}
+
+#employmentSearch {
+	position: relative;
+	top: -160px;
+	left: 32%;
+	width: 38%;
+}
+
+#employmentDescription {
+	position: relative;
+	top: -135px;
+	left: 41%;
+	width: 20%;
+}
+
+.contactMe h3 {
+	position: relative;
+	top: -110px;
+	left: 23%;
+	font-size: 25px;
+	width: 57%;
+}
+
+.contactPics img {
+	position: relative;
+	margin: 0;
+}
+
+#gmail {
+	left: 45%;
+	top: -85px;
+}
+
+#linkedin {
+	left: 18%;
+	top: -85px;
+}
+
+#piazza {
+	left: 37%;
+	top: -85px;
+	border-radius: 10px;
+}
