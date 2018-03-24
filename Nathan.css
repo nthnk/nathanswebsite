@@ -4,7 +4,6 @@
 }
 
 body, html {
-	height: 100%;
 	margin: 0px 0px;
 }
 
@@ -29,6 +28,7 @@ body, html {
 	padding: 15px;
 	border-radius: 10px;
 	font-size: 15px;
+	-webkit-transition: all .1s ease-in-out;
 }
 
 #linkTopBtn {
@@ -141,188 +141,177 @@ body, html {
 
 .welcome {
 	background-image: url("Website Background.JPG");
-	height: 103%;
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.welcomeText {
+	width: 100%;
+}
+
 #introduction {
-	position: relative;
-	left: 19%;
+	padding-left: 20%;
+	padding-top: 15%;
+	padding-right: 67%;
 	font-family: "Poiret One";
 	color: white;
 	font-size: 50px;
-	top: 200px;
 	width: 13%;
 }
 
 #fullname {
-	position: relative;
-	left: 18%;
+	padding-left: 17%;
+	padding-bottom: 22%;
+	padding-right: 33%;
 	font-family: "Poiret One";
 	color: white;
 	font-size: 90px;
-	top: 200px;
 	width: 50%;
 }
 
 .aboutme {
 	background-image: url("Beach.jpeg");
-	height: 100%;
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.7;
+    width: 100%;
 }
 
-.whoiam h1 {
+.whoiam {
+	width: 100%;
+}
+
+.aboutMeTitles {
+	width: 100%;
+	padding-top: 5%;
+}
+
+.aboutMeTitles h1 {
 	font-family: "Coming Soon";
 	color: black;
 	letter-spacing: 4px;
 	font-size: 30px;
-	width: 28%;
-	position: relative;
-	left: 3%;
-	top: -570px;
+	text-align: center;
 	background-color: aquamarine;
-	padding: 21px;
-	padding-left: 14%;
-	padding-right: 0%;
-	border-radius: 25px
+	padding: 15px;
+	border-radius: 25px;
+}
+
+.whoiamTitle {
+	width: 30%;
+	float: left;
+	padding-left: 10%;
+}
+
+.aspireTitle {
+	width: 30%;
+	float: left;
+	padding-left: 20%;
 }
 
 .aboutMeContent {
-	font-family: "Coming Soon";
-	line-height: 400%;
-	text-align: center;
-	width: 37%;
-}
-
-#contentLine1 {
-	position: relative;
-	top: -520px;
-	left: 15%;
-}
-
-#contentLine2 {
-	position: relative;
-	top: -470px;
-	left: 15%;
-}
-
-#contentLine3 {
-	position: relative;
-	top: -420px;
-	left: 15%;
+	width: 100%;
 }
 
 .aboutMeContent p {
-	font-size: 25px;
-	color: black;
-	background-color: azure;
-	padding: 10px;
-	border-radius: 25px;
-}
-
-.myGoals {
-	top: 900px;
-}
-
-.myGoals hr {
-	border-color: black;
-}
-
-.aspirations h1 {
 	font-family: "Coming Soon";
-	color: black;
-	letter-spacing: 4px;
-	font-size: 30px;
-	width: 28%;
-	position: relative;
-	left: 55%;
-	top: -911px;
-	background-color: aquamarine;
-	padding: 21px;
-	padding-left: 7%;
-	padding-right: 7%;
-	border-radius: 25px
-}
-
-.careerGoals {
-	font-family: "Coming Soon";
-	line-height: 400%;
 	text-align: center;
-	width: 37%;
-}
-
-.careerGoals p {
 	font-size: 25px;
 	color: black;
 	background-color: azure;
-	padding: 10px;
 	border-radius: 25px;
+	padding: 4%;
 }
 
-#careerLine1 {
-	position: relative;
-	top: -861px;
-	left: 157%;
+.firstContents {
+	width: 100%;
+	display: inline-block;
 }
 
-#careerLine2 {
-	position: relative;
-	top: -811px;
-	left: 157%;
+.contentLineOne {
+	width: 30%;
+	float: left;
+	padding-left: 10%;
+	padding-top: 5%;
 }
 
-#careerLine3 {
-	position: relative;
-	top: -761px;
-	left: 157%;
+.careerLineOne {
+	width: 30%;
+	float: left;
+	padding-left: 20%;
+	padding-top: 5%;
 }
+
+.secondContents {
+	width: 100%;
+	display: inline-block;
+}
+
+.contentLineTwo {
+	width: 30%;
+	float: left;
+	padding-left: 10%;
+	padding-top: 5%;
+}
+
+.careerLineTwo {
+	width: 30%;
+	float: left;
+	padding-left: 20%;
+	padding-top: 5%;
+}
+
+.thirdContents {
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 10%;
+}
+
+.contentLineThree {
+	width: 30%;
+	float: left;
+	padding-left: 10%;
+	padding-top: 5%;
+}
+
+.careerLineThree {
+	width: 30%;
+	float: left;
+	padding-left: 20%;
+	padding-top: 5%;
+} 
 
 .workHistory {
 	background-image: url("Toronto.jpeg");
-	height: 180%;
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    top: -685px;
+    width: 100%;
+}
+
+.pastWork {
+	width: 100%;
+}
+
+.whatIveDone {
+	width: 50%;
+	padding-left: 30%;
+	padding-top: 8%;
 }
 
 .whatIveDone h3 {
 	font-family: "Montserrat";
 	font-size: 35px;
 	color: white;
-	position: relative;
-	top: 80px;
-	left: 28%;
-	width: 29%;
+	width: 75%;
+	text-align: center;
 	background-color: cornflowerblue;
-	padding: 21px;
-	padding-left: 7%;
-	padding-right: 7%;
+	padding: 3%;
 	border-radius: 25px
-}
-
-#lineseven {
-	border-color: white;
-	width: 3%;
-	position: relative;
-	top: 37px;
-	left: 65.5%;
-}
-
-#lineeight {
-	border-color: white;
-	width: 3%;
-	position: relative;
-	top: 35px;
-	left: 30%;
 }
 
 .workExperience {
@@ -332,37 +321,14 @@ body, html {
 
 .workExperience h3 {
 	font-size: 25px;
-	position: relative;
-	left: 45%;
 	background-color: cornflowerblue;
-	padding: 3px;
-	padding-left: 1%;
-	padding-right: 1%;
-	border-radius: 25px
-}
-
-#veriday {
-	width: 11%;
-	position: relative;
-	top: 133px;
-}
-
-#website {
-	width: 20%;
-	position: relative;
-	top: 208px;
-}
-
-#entsoc {
-	width: 28%;
-	position: relative;
-	top: 344px;
+	padding: 1%;
+	text-align: center;
+	border-radius: 25px;
 }
 
 .workExperience p {
 	font-size: 13px;
-	position: relative;
-	left: 45%;
 	background-color: yellowgreen;
 	padding: 3px;
 	padding-left: 1%;
@@ -370,93 +336,214 @@ body, html {
 	border-radius: 25px
 }
 
+.veridayContent {
+	width: 100%;
+	display: inline-block;
+}
+
+.veridayRight {
+	width: 50%;
+	float: right;
+}
+
+.veridayTitle {
+	padding-top: 3%;
+}
+
 #veridayTitle {
-	position: relative;
-	top: 145px;
-	width: 19%;
+	width: 25%;
+	text-align: center;
+}
+
+.veridayPosition {
+	padding-top: 0.5%;
+}
+
+#veridayPosition {
 	-webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
     -o-transition: all .1s ease-in-out;
     -ms-transition: all .1s ease-in-out;
+    text-align: center;
+    width: 40%;
 }
 
-#websiteTitle {
-	position: relative;
-	top: 220px;
-	width: 23%;
-	-webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
+.veridayDescription {
+	padding-top: 0.5%;
 }
 
-#entsocTitle {
-	position: relative;
-	top: 355px;
-	width: 14%;
-	-webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
+#veridayDescription {
+	width: 60%;
+	background-color: gray;
+	line-height: 30px;
+	text-align: center;
 }
 
-.workPictures img {
-	position: absolute;
-	left: 28%;
+.veridayLeft {
+	float: left;
+	width: 49%;
+}
+
+.veridayPic {
+	margin-left: 67%;
+	margin-top: 3%;
 }
 
 #veridayPic {
 	border-radius: 25px;
-	top: 223px;
 	-webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
     -o-transition: all .1s ease-in-out;
     -ms-transition: all .1s ease-in-out;
+}
+
+.websiteContent {
+	width: 100%;
+	display: inline-block;
+}
+
+.websiteRight {
+	width: 50%;
+	float: right;
+}
+
+.websiteTitle {
+	padding-top: 3%;
+}
+
+#websiteTitle {
+	width: 42%;
+	text-align: center;
+}
+
+.websitePosition {
+	padding-top: 0.5%;
+}
+
+#websitePosition {
+	-webkit-transition: all .1s ease-in-out;
+    text-align: center;
+    width: 48%;
+}
+
+.websiteDescription {
+	padding-top: 0.5%;
+}
+
+#websiteDescription {
+	width: 38%;
+	background-color: gray;
+	line-height: 30px;
+	text-align: center
+}
+
+.websiteLeft {
+	float: left;
+	width: 49%;
+}
+
+.websitePic {
+	margin-left: 67%;
+	margin-top: 3%;
 }
 
 #websitePic {
 	border-radius: 25px;
-	top: 510px;
 	-webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
     -o-transition: all .1s ease-in-out;
     -ms-transition: all .1s ease-in-out;
+}
+
+.entsocContent {
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 10%;
+}
+
+.entsocRight {
+	width: 50%;
+	float: right;
+}
+
+.entsocTitle {
+	padding-top: 3%;
+}
+
+#entsocTitle {
+	width: 42%;
+	text-align: center;
+}
+
+.entsocPosition {
+	padding-top: 0.5%;
+}
+
+#entsocPosition {
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    text-align: center;
+    width: 48%;
+}
+
+.entsocDescription {
+	padding-top: 0.5%;
+}
+
+#entsocDescription {
+	width: 38%;
+	background-color: gray;
+	line-height: 30px;
+	text-align: center
+}
+
+.entsocLeft {
+	float: left;
+	width: 49%;
+}
+
+.entsocPic {
+	margin-left: 67%;
+	margin-top: 3%;
 }
 
 #entsocPic {
 	border-radius: 25px;
-	top: 802px;
 	-webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
     -o-transition: all .1s ease-in-out;
     -ms-transition: all .1s ease-in-out;
 }
 
-#veridayDescription {
-	width: 24%;
-	position: relative;
-	top: 160px;
-	left: 45%;
-	background-color: gray;
-	line-height: 30px;
+.skills {
+	width: 100%;
+	margin-bottom: 10%;
 }
 
-#websiteDescription {
-	width: 24%;
-	position: relative;
-	top: 235px;
-	left: 45%;
-	background-color: gray;
-	line-height: 30px;	
+.skillset {
+	width: 100%;
 }
 
-#entsocDescription {
-	width: 24%;
-	position: relative;
-	top: 370px;
-	left: 45%;
-	background-color: gray;
-	line-height: 30px;	
+.skillsTitle {
+	width: 22%;
+	padding-left: 39%;
+	padding-top: 10%;
+}
+
+.lineFive {
+	width: 100%;
+}
+
+#linefive {
+	width: 95%;
+	border-color: black;
+}
+
+.skillsetTitle {
+	width: 100%;
+	padding-left: 6%;
 }
 
 .skillset h2 {
@@ -464,10 +551,35 @@ body, html {
 	color: black;
 	letter-spacing: 10px;
 	font-size: 30px;
-	width: 18%;
-	position: relative;
-	left: 41.35%;
-	top: -580px;
+	width: 85%;
+	text-align: center;
+}
+
+.lineSix {
+	width: 100%;
+}
+
+#linesix {
+	width: 95%;
+	border-color: black;
+}
+
+.skillsContent {
+	width: 100%;
+}
+
+.skillDescription {
+	width: 37%;
+	padding-left: 34%;
+	padding-top: 2%;
+}
+
+#mySkills {
+	font-family: "Montserrat";
+	font-size: 20px;
+	letter-spacing: 2px;
+	width: 83%;
+	text-align: center;
 }
 
 #skillSet {
@@ -477,119 +589,151 @@ body, html {
     -ms-transition: all .1s ease-in-out;
 }
 
-#linefive {
-	position: relative;
-	width: 280px;
-	top: -640px;
-	left: 39.4%;
-	border-color: black;
-}
-
-#linesix {
-	position: relative;
-	width: 280px;
-	top: -560px;
-	left: 39.4%;
-	border-color: black;
-}
-
-#mySkills {
-	font-family: "Montserrat";
-	font-size: 20px;
-	letter-spacing: 2px;
-	position: relative;
-	top: -530px;
-	width: 31%;
-	left: 35.5%;
-}
-
 .theSkills p{
 	font-family: "Montserrat";
 	font-size: 30px;
 	letter-spacing: 4px;
-	position: relative;
+}
+
+.theSkills {
+	width: 100%;
+	display: inline-block;
+	padding-top: 2%;
+}
+
+.skill1 {
+	float: left;
+	padding-left: 15%;
 }
 
 #skill1 {
-	top: -496px;
-	left: 15%;
 	width: 10%;
 }
 
+.skill2 {
+	float: left;
+	padding-left: 10%;
+}
+
 #skill2 {
-	top: -533px;
-	left: 35%;
 	width: 7%;
 }
 
+.skill3 {
+	float: left;
+	padding-left: 10%;
+}
+
 #skill3 {
-	top: -570px;
-	left: 52%;
 	width: 15%;
 }
 
+.skill4 {
+	float: left;
+	padding-left: 10%;
+}
+
 #skill4 {
-	top: -607px;
-	left: 77%;
 	width: 10%;
 }
 
 .skillPictures img {
-	position: absolute;
 	-webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
     -o-transition: all .1s ease-in-out;
     -ms-transition: all .1s ease-in-out;
 }
 
-#HTML5 {
-	top: 2750px;
-	left: 12.2%;
+.skillPictures {
+	display: inline-block;
+	width: 100%;
 }
 
-#CSS3 {
-	top: 2750px;
-	left: 33%;
+.HTML5 {
+	float: left;
+	padding-top: 1%;
+	padding-left: 12%;
 }
 
-#JavaScript {
-	top: 2742px;
-	left: 51%;
+.CSS3 {
+	float: left;
+	padding-top: 1%;
+	padding-left: 5%;
 }
 
-#jQuery {
-	top: 2773px;
-	left: 72%;
+.JavaScript {
+	float: left;
+	padding-left: 7%;
+}
+
+.jQuery {
+	float: left;
+	padding-top: 3%;
+	padding-left: 4%;
 }
 
 .ballFrisbeeGym {
 	background-image: url("plants.jpeg");
-	height: 150%;
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    top: -340px;
+    width: 100%;
 }
 
 .recTitle h4 {
 	font-family:'Montserrat';
 	font-size: 50px;
-	position: relative;
-	left: 36%;
-	top: 70px;
 	color: white;
-	width: 26%;
+	text-align: center;
 }
 
-.recPics img {
-	position: absolute;
-	top: 200px;
+.recTitle {
+	width: 100%;
+}
+
+.leisureSpace {
+	width: 26%;
+	padding-top: 8%;
+	padding-left: 37%;
+	padding-bottom: 5%;
+}
+
+.recPics1 {
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 5%;
+}
+
+.pullup1 {
+	float: left;
+	padding-left: 5%;
+}
+
+.pullup2 {
+	float: left;
+	padding-left: 5%;
+}
+
+.pullup3 {
+	float: left;
+	padding-left: 5%;
+}
+
+.pullup4 {
+	float: left;
+	padding-left: 5%;
 }
 
 #soccer {
-	left: 4%;
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+#pullup1Colour {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
@@ -598,7 +742,6 @@ body, html {
 }
 
 #frisbee10 {
-	left: 28%;
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
@@ -607,7 +750,6 @@ body, html {
 }
 
 #frisbee12 {
-	left: 52%;
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
@@ -616,67 +758,178 @@ body, html {
 }
 
 #frisbeeUproar {
-	left: 76%;
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
+}
+
+.recPics2 {
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 5%;
+}
+
+.dapper {
+	float: left;
+	padding-left: 5%;
+}
+
+.frisbee {
+	float: left;
+	padding-left: 5%;
+}
+
+.microphone {
+	float: left;
+	padding-left: 5%;
+}
+
+.pingpong {
+	float: left;
+	padding-left: 5%;
+}
+
+#dapper {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#frisbee {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#microphone {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#pingpong {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+.recPics3 {
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 5%;
+}
+
+.flick {
+	float: left;
+	padding-left: 5%;
+}
+
+.flick1 {
+	float: left;
+	padding-left: 5%;
+}
+
+.flick2 {
+	float: left;
+	padding-left: 5%;
+}
+
+.flick3 {
+	float: left;
+	padding-left: 5%;
+}
+
+#flick {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#flick1 {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#flick2 {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#flick3 {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
 }
 
 .contact {
-	height: 35%;
-	position: relative;
-	top: -280px;
+	width: 100%;
+	margin-top: 5%;
 }
 
 .contactMe {
 	font-family: 'Comfortaa';
+	width: 100%;
 }
 
 .contactMe p {
 	font-size: 20px;
 }
 
-#employmentSearch {
-	position: relative;
-	top: -160px;
-	left: 32%;
-	width: 38%;
+.employmentSearch {
+	padding-left: 30%;
+	padding-bottom: 2%;
+	padding-top: 5%;
+	width: 40%;
 }
 
-#employmentDescription {
-	position: relative;
-	top: -135px;
-	left: 41%;
+#employmentSearch {
+	text-align: center;
+}
+
+.employmentDescription {
+	padding-left: 40%;
+	padding-bottom: 2%;
 	width: 20%;
 }
 
-.contactMe h3 {
-	position: relative;
-	top: -110px;
-	left: 23%;
-	font-size: 25px;
+#employmentDescription {
+	text-align: center;
+}
+
+.reachOut {
+	padding-left: 22%;
+	padding-bottom: 2%;
 	width: 57%;
 }
 
-.contactPics img {
-	position: relative;
-	margin: 0;
+#reachOut {
+	font-size: 25px;
+	text-align: center;
+}
+
+.contactPics {
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 10%;
+}
+
+.linkedin {
+	float: left;
+	padding-left: 23.5%;
+}
+
+.gmail {
+	float: left;
+	padding-left: 10%;
+}
+
+.piazza {
+	float: left;
+	padding-left: 10%;
 }
 
 #gmail {
-	left: 45%;
-	top: -85px;
+	-webkit-transition: all .1s ease-in-out;
 }
 
 #linkedin {
-	left: 18%;
-	top: -85px;
+	-webkit-transition: all .1s ease-in-out;
 }
 
 #piazza {
-	left: 37%;
-	top: -85px;
 	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
 }

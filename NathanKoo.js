@@ -66,6 +66,16 @@ $('#dropDownButton').click(function() {
 
 });
 
+function topBtnEnlarge () {
+	$('#topBtn').hover(function() {
+		$(this).addClass('transition');
+	}, function() {
+		$(this).removeClass('transition');
+	})
+}
+
+topBtnEnlarge();
+
 function whoiam () {
 
 	$("h1").hover(function(){
@@ -154,10 +164,10 @@ whatIveDone();
 
 function veriday () {
 
-	$('#veriday').hover(function(){
-    	$('#veriday').css("background-color", "steelblue");
+	$('#veridayTitle').hover(function(){
+    	$('#veridayTitle').css("background-color", "steelblue");
     	}, function(){
-    $('#veriday').css("background-color", "cornflowerblue");
+    $('#veridayTitle').css("background-color", "cornflowerblue");
 	});
 }
 
@@ -165,10 +175,10 @@ veriday();
 
 function website () {
 
-	$('#website').hover(function(){
-    	$('#website').css("background-color", "steelblue");
+	$('#websiteTitle').hover(function(){
+    	$(this).css("background-color", "steelblue");
     	}, function(){
-    $('#website').css("background-color", "cornflowerblue");
+    $(this).css("background-color", "cornflowerblue");
 	});
 }
 
@@ -222,7 +232,7 @@ entsocDescr();
 
 function veridayTitleHover () {
 
-	$('#veridayTitle').hover(function(){
+	$('#veridayPosition').hover(function(){
     	$(this).addClass("transition");
     	}, function(){
     $(this).removeClass("transition");
@@ -233,7 +243,7 @@ veridayTitleHover();
 
 function websiteTitleHover () {
 
-	$('#websiteTitle').hover(function(){
+	$('#websitePosition').hover(function(){
     	$(this).addClass("transition");
     	}, function(){
     $(this).removeClass("transition");
@@ -244,7 +254,7 @@ websiteTitleHover();
 
 function entsocTitleHover () {
 
-	$('#entsocTitle').hover(function(){
+	$('#entsocPosition').hover(function(){
     	$(this).addClass("transition");
     	}, function(){
     $(this).removeClass("transition");
@@ -434,6 +444,94 @@ function frisbeeUproarHover () {
 }
 
 frisbeeUproarHover();
+
+function dapperHover () {
+
+	$('#dapper').hover(function(){
+    	$(this).addClass("transition");
+    	}, function(){
+    $(this).removeClass("transition");
+	});
+}
+
+dapperHover();
+
+function frisbeeHover () {
+
+	$('#frisbee').hover(function(){
+    	$(this).addClass("transition");
+    	}, function(){
+    $(this).removeClass("transition");
+	});
+}
+
+frisbeeHover();
+
+function microphoneHover () {
+
+	$('#microphone').hover(function(){
+    	$(this).addClass("transition");
+    	}, function(){
+    $(this).removeClass("transition");
+	});
+}
+
+microphoneHover();
+
+function pingpongHover () {
+
+	$('#pingpong').hover(function(){
+    	$(this).addClass("transition");
+    	}, function(){
+    $(this).removeClass("transition");
+	});
+}
+
+pingpongHover();
+
+function flickHover () {
+
+	$('#flick').hover(function(){
+    	$(this).addClass("transition");
+    	}, function(){
+    $(this).removeClass("transition");
+	});
+}
+
+flickHover();
+
+function flick1Hover () {
+
+	$('#flick1').hover(function(){
+    	$(this).addClass("transition");
+    	}, function(){
+    $(this).removeClass("transition");
+	});
+}
+
+flick1Hover();
+
+function flick2Hover () {
+
+	$('#flick2').hover(function(){
+    	$(this).addClass("transition");
+    	}, function(){
+    $(this).removeClass("transition");
+	});
+}
+
+flick2Hover();
+
+function flick3Hover () {
+
+	$('#flick3').hover(function(){
+    	$(this).addClass("transition");
+    	}, function(){
+    $(this).removeClass("transition");
+	});
+}
+
+flick3Hover();
 
 function employmentDescriptionHover () {
 
