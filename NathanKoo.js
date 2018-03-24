@@ -186,10 +186,10 @@ website();
 
 function entsoc () {
 
-	$('#entsoc').hover(function(){
-    	$('#entsoc').css("background-color", "steelblue");
+	$('#entsocTitle').hover(function(){
+    	$(this).css("background-color", "steelblue");
     	}, function(){
-    $('#entsoc').css("background-color", "cornflowerblue");
+    $(this).css("background-color", "cornflowerblue");
 	});
 }
 
