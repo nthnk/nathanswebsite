@@ -943,15 +943,1894 @@ body, html {
 
 @media screen and (max-width: 991px) {
      /* start of large tablet styles */
-
+     * {
+	margin: 0;
+	padding: 0;
 }
 
-@media screen and (max-width: 767px) {
-     /* start of medium tablet styles */
+body, html {
+	margin: 0px 0px;
+}
 
+.transition {
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.transition1 {
+	-webkit-transform: scale(1.5); 
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+#topBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	left: 94%;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: red;
+	font-family: 'Coming Soon';
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 15px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#linkTopBtn {
+	text-decoration: none;
+	color: white;
+}
+
+#topBtn:hover {
+	background-color: #ed1c1c;
+}
+
+.menu {
+	font-family: 'Montserrat';
+	font-size: 15px;
+	background-color: lightgrey;
+	position: fixed;
+	top: 12px;
+	left: 1%;
+	padding: 10px;
+	border-radius: 10px;
+	width: 10%;
+	text-align: center;
+	cursor: pointer;
+	z-index: 1;
+	list-style-type: none;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+}
+
+.dropdown-content a{
+	font-family: 'Montserrat';
+	font-size: 15px;
+	background-color: lightgrey;
+	padding: 10px;
+	border-radius: 10px;
+	width: 10%;
+	text-align: center;
+	cursor: pointer;
+	position: fixed;
+	left: 1%;
+	text-decoration: none;
+	color: black;
+	z-index: 1;
+}
+
+.hideContent{
+	display: none;
+}
+
+#btn1 {
+	position: fixed;
+	top: 65px;
+	left: 1%;
+}
+
+#btn2 {
+	position: fixed;
+	top: 115px;
+	left: 1%;
+}
+
+#btn3 {
+	position: fixed;
+	top: 165px;
+	left: 1%;
+}
+
+#btn4 {
+	position: fixed;
+	top: 215px;
+	left: 1%;
+}
+
+#btn5 {
+	position: fixed;
+	top: 265px;
+	left: 1%;
+}
+
+.menu:hover {
+	background-color: #e5eff9;
+}
+
+#btn1:hover {
+	background-color: #e5eff9;
+}
+
+#btn2:hover {
+	background-color: #e5eff9;
+}
+
+#btn3:hover {
+	background-color: #e5eff9;
+}
+
+#btn4:hover {
+	background-color: #e5eff9;
+}
+
+#btn5:hover {
+	background-color: #e5eff9;
+}
+
+.show {
+	display: block;
+}
+
+.welcome {
+	background-image: url("Website Background.JPG");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcomeText {
+	width: 100%;
+}
+
+#introduction {
+	padding-left: 20%;
+	padding-top: 15%;
+	padding-right: 67%;
+	font-family: "Poiret One";
+	color: white;
+	font-size: 50px;
+	width: 13%;
+}
+
+#fullname {
+	padding-left: 17%;
+	padding-bottom: 22%;
+	padding-right: 33%;
+	font-family: "Poiret One";
+	color: white;
+	font-size: 90px;
+	width: 50%;
+}
+
+.aboutme {
+	background-image: url("Beach.jpeg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    width: 100%;
+}
+
+.whoiam {
+	width: 100%;
+}
+
+.aboutMeTitles {
+	width: 100%;
+	padding-top: 5%;
+}
+
+.aboutMeTitles h1 {
+	font-family: "Coming Soon";
+	color: black;
+	letter-spacing: 4px;
+	font-size: 30px;
+	text-align: center;
+	background-color: aquamarine;
+	padding: 15px;
+	border-radius: 25px;
+}
+
+.whoiamTitle {
+	width: 30%;
+	float: left;
+	padding-left: 10%;
+}
+
+.aspireTitle {
+	width: 30%;
+	float: left;
+	padding-left: 20%;
+}
+
+.aboutMeContent {
+	width: 100%;
+}
+
+.aboutMeContent p {
+	font-family: "Coming Soon";
+	text-align: center;
+	font-size: 25px;
+	color: black;
+	background-color: azure;
+	border-radius: 25px;
+	padding: 4%;
+}
+
+.firstContents {
+	width: 100%;
+	display: inline-block;
+}
+
+.contentLineOne {
+	width: 30%;
+	float: left;
+	padding-left: 10%;
+	padding-top: 5%;
+}
+
+.careerLineOne {
+	width: 30%;
+	float: left;
+	padding-left: 20%;
+	padding-top: 5%;
+}
+
+.secondContents {
+	width: 100%;
+	display: inline-block;
+}
+
+.contentLineTwo {
+	width: 30%;
+	float: left;
+	padding-left: 10%;
+	padding-top: 5%;
+}
+
+.careerLineTwo {
+	width: 30%;
+	float: left;
+	padding-left: 20%;
+	padding-top: 5%;
+}
+
+.thirdContents {
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 10%;
+}
+
+.contentLineThree {
+	width: 30%;
+	float: left;
+	padding-left: 10%;
+	padding-top: 5%;
+}
+
+.careerLineThree {
+	width: 30%;
+	float: left;
+	padding-left: 20%;
+	padding-top: 5%;
+} 
+
+.workHistory {
+	background-image: url("Toronto.jpeg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.pastWork {
+	width: 100%;
+}
+
+.whatIveDone {
+	width: 50%;
+	padding-left: 30%;
+	padding-top: 8%;
+}
+
+.whatIveDone h3 {
+	font-family: "Montserrat";
+	font-size: 35px;
+	color: white;
+	width: 75%;
+	text-align: center;
+	background-color: cornflowerblue;
+	padding: 3%;
+	border-radius: 25px
+}
+
+.workExperience {
+	font-family: 'Montserrat';
+	color: white;
+}
+
+.workExperience h3 {
+	font-size: 25px;
+	background-color: cornflowerblue;
+	padding: 1%;
+	text-align: center;
+	border-radius: 25px;
+}
+
+.workExperience p {
+	font-size: 13px;
+	background-color: yellowgreen;
+	padding: 3px;
+	padding-left: 1%;
+	padding-right: 1%;
+	border-radius: 25px
+}
+
+.veridayContent {
+	width: 100%;
+	display: inline-block;
+}
+
+.veridayRight {
+	width: 50%;
+	float: right;
+}
+
+.veridayTitle {
+	padding-top: 3%;
+}
+
+#veridayTitle {
+	width: 25%;
+	text-align: center;
+}
+
+.veridayPosition {
+	padding-top: 0.5%;
+}
+
+#veridayPosition {
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    text-align: center;
+    width: 40%;
+}
+
+.veridayDescription {
+	padding-top: 0.5%;
+}
+
+#veridayDescription {
+	width: 60%;
+	background-color: gray;
+	line-height: 30px;
+	text-align: center;
+}
+
+.veridayLeft {
+	float: left;
+	width: 49%;
+}
+
+.veridayPic {
+	margin-left: 67%;
+	margin-top: 3%;
+}
+
+#veridayPic {
+	border-radius: 25px;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+.websiteContent {
+	width: 100%;
+	display: inline-block;
+}
+
+.websiteRight {
+	width: 50%;
+	float: right;
+}
+
+.websiteTitle {
+	padding-top: 3%;
+}
+
+#websiteTitle {
+	width: 42%;
+	text-align: center;
+}
+
+.websitePosition {
+	padding-top: 0.5%;
+}
+
+#websitePosition {
+	-webkit-transition: all .1s ease-in-out;
+    text-align: center;
+    width: 48%;
+}
+
+.websiteDescription {
+	padding-top: 0.5%;
+}
+
+#websiteDescription {
+	width: 38%;
+	background-color: gray;
+	line-height: 30px;
+	text-align: center
+}
+
+.websiteLeft {
+	float: left;
+	width: 49%;
+}
+
+.websitePic {
+	margin-left: 67%;
+	margin-top: 3%;
+}
+
+#websitePic {
+	border-radius: 25px;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+.entsocContent {
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 10%;
+}
+
+.entsocRight {
+	width: 50%;
+	float: right;
+}
+
+.entsocTitle {
+	padding-top: 3%;
+}
+
+#entsocTitle {
+	width: 60%;
+	text-align: center;
+}
+
+.entsocPosition {
+	padding-top: 0.5%;
+}
+
+#entsocPosition {
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    text-align: center;
+    width: 30%;
+}
+
+.entsocDescription {
+	padding-top: 0.5%;
+}
+
+#entsocDescription {
+	width: 38%;
+	background-color: gray;
+	line-height: 30px;
+	text-align: center
+}
+
+.entsocLeft {
+	float: left;
+	width: 49%;
+}
+
+.entsocPic {
+	margin-left: 67%;
+	margin-top: 3%;
+}
+
+#entsocPic {
+	border-radius: 25px;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+.skills {
+	width: 100%;
+	margin-bottom: 10%;
+}
+
+.skillset {
+	width: 100%;
+}
+
+.skillsTitle {
+	width: 22%;
+	padding-left: 39%;
+	padding-top: 10%;
+}
+
+.lineFive {
+	width: 100%;
+}
+
+#linefive {
+	width: 95%;
+	border-color: black;
+}
+
+.skillsetTitle {
+	width: 100%;
+	padding-left: 6%;
+}
+
+.skillset h2 {
+	font-family: "Montserrat";
+	color: black;
+	letter-spacing: 10px;
+	font-size: 30px;
+	width: 85%;
+	text-align: center;
+}
+
+.lineSix {
+	width: 100%;
+}
+
+#linesix {
+	width: 95%;
+	border-color: black;
+}
+
+.skillsContent {
+	width: 100%;
+}
+
+.skillDescription {
+	width: 37%;
+	padding-left: 34%;
+	padding-top: 2%;
+}
+
+#mySkills {
+	font-family: "Montserrat";
+	font-size: 20px;
+	letter-spacing: 2px;
+	width: 83%;
+	text-align: center;
+}
+
+#skillSet {
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+.theSkills p{
+	font-family: "Montserrat";
+	font-size: 30px;
+	letter-spacing: 4px;
+}
+
+.theSkills {
+	width: 100%;
+	display: inline-block;
+	padding-top: 2%;
+}
+
+.skill1 {
+	float: left;
+	padding-left: 15%;
+}
+
+#skill1 {
+	width: 10%;
+}
+
+.skill2 {
+	float: left;
+	padding-left: 10%;
+}
+
+#skill2 {
+	width: 7%;
+}
+
+.skill3 {
+	float: left;
+	padding-left: 10%;
+}
+
+#skill3 {
+	width: 15%;
+}
+
+.skill4 {
+	float: left;
+	padding-left: 10%;
+}
+
+#skill4 {
+	width: 10%;
+}
+
+.skillPictures img {
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+.skillPictures {
+	display: inline-block;
+	width: 100%;
+}
+
+.HTML5 {
+	float: left;
+	padding-top: 1%;
+	padding-left: 12%;
+}
+
+.CSS3 {
+	float: left;
+	padding-top: 1%;
+	padding-left: 5%;
+}
+
+.JavaScript {
+	float: left;
+	padding-left: 7%;
+}
+
+.jQuery {
+	float: left;
+	padding-top: 3%;
+	padding-left: 4%;
+}
+
+.ballFrisbeeGym {
+	background-image: url("plants.jpeg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.recTitle h4 {
+	font-family:'Montserrat';
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+
+.recTitle {
+	width: 100%;
+}
+
+.leisureSpace {
+	width: 26%;
+	padding-top: 8%;
+	padding-left: 37%;
+	padding-bottom: 5%;
+}
+
+.recPics1 {
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 5%;
+}
+
+.pullup1 {
+	float: left;
+	padding-left: 5%;
+}
+
+.pullup2 {
+	float: left;
+	padding-left: 5%;
+}
+
+.pullup3 {
+	float: left;
+	padding-left: 5%;
+}
+
+.pullup4 {
+	float: left;
+	padding-left: 5%;
+}
+
+#soccer {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+#pullup1Colour {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+#frisbee10 {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+#frisbee12 {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+#frisbeeUproar {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+.recPics2 {
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 5%;
+}
+
+.dapper {
+	float: left;
+	padding-left: 5%;
+}
+
+.frisbee {
+	float: left;
+	padding-left: 5%;
+}
+
+.microphone {
+	float: left;
+	padding-left: 5%;
+}
+
+.pingpong {
+	float: left;
+	padding-left: 5%;
+}
+
+#dapper {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#frisbee {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#microphone {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#pingpong {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+.recPics3 {
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 5%;
+}
+
+.flick {
+	float: left;
+	padding-left: 5%;
+}
+
+.flick1 {
+	float: left;
+	padding-left: 5%;
+}
+
+.flick2 {
+	float: left;
+	padding-left: 5%;
+}
+
+.flick3 {
+	float: left;
+	padding-left: 5%;
+}
+
+#flick {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#flick1 {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#flick2 {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#flick3 {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+.contact {
+	width: 100%;
+	margin-top: 5%;
+}
+
+.contactMe {
+	font-family: 'Comfortaa';
+	width: 100%;
+}
+
+.contactMe p {
+	font-size: 20px;
+}
+
+.employmentSearch {
+	padding-left: 30%;
+	padding-bottom: 2%;
+	padding-top: 5%;
+	width: 40%;
+}
+
+#employmentSearch {
+	text-align: center;
+}
+
+.employmentDescription {
+	padding-left: 40%;
+	padding-bottom: 2%;
+	width: 20%;
+}
+
+#employmentDescription {
+	text-align: center;
+}
+
+.reachOut {
+	padding-left: 22%;
+	padding-bottom: 2%;
+	width: 57%;
+}
+
+#reachOut {
+	font-size: 25px;
+	text-align: center;
+}
+
+.contactPics {
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 10%;
+}
+
+.linkedin {
+	float: left;
+	padding-left: 23.5%;
+}
+
+.gmail {
+	float: left;
+	padding-left: 10%;
+}
+
+.piazza {
+	float: left;
+	padding-left: 10%;
+}
+
+#gmail {
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#linkedin {
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#piazza {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
 }
 
 @media screen and (max-width: 479px) {
      /* start of phone styles */
+     * {
+	margin: 0;
+	padding: 0;
+}
 
+body, html {
+	margin: 0px 0px;
+}
+
+.transition {
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.transition1 {
+	-webkit-transform: scale(1.5); 
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+#topBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	left: 94%;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: red;
+	font-family: 'Coming Soon';
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 15px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#linkTopBtn {
+	text-decoration: none;
+	color: white;
+}
+
+#topBtn:hover {
+	background-color: #ed1c1c;
+}
+
+.menu {
+	font-family: 'Montserrat';
+	font-size: 15px;
+	background-color: lightgrey;
+	position: fixed;
+	top: 0px;
+	left: 0%;
+	padding: 10px;
+	border-radius: 0px;
+	width: 95%;
+	text-align: center;
+	cursor: pointer;
+	z-index: 1;
+	list-style-type: none;
+	border: 1px solid black;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+}
+
+.dropdown-content a{
+	font-family: 'Montserrat';
+	font-size: 15px;
+	background-color: lightgrey;
+	padding: 10px;
+	border-radius: 0px;
+	width: 95%;
+	text-align: center;
+	cursor: pointer;
+	position: fixed;
+	text-decoration: none;
+	color: black;
+	z-index: 1;
+	border: 1px solid black;
+}
+
+.hideContent{
+	display: none;
+}
+
+#btn1 {
+	position: fixed;
+	top: 40px;
+	left: 0%;
+}
+
+#btn2 {
+	position: fixed;
+	top: 80px;
+	left: 0%;
+}
+
+#btn3 {
+	position: fixed;
+	top: 120px;
+	left: 0%;
+}
+
+#btn4 {
+	position: fixed;
+	top: 160px;
+	left: 0%;
+}
+
+#btn5 {
+	position: fixed;
+	top: 200px;
+	left: 0%;
+}
+
+.menu:hover {
+	background-color: #e5eff9;
+}
+
+#btn1:hover {
+	background-color: #e5eff9;
+}
+
+#btn2:hover {
+	background-color: #e5eff9;
+}
+
+#btn3:hover {
+	background-color: #e5eff9;
+}
+
+#btn4:hover {
+	background-color: #e5eff9;
+}
+
+#btn5:hover {
+	background-color: #e5eff9;
+}
+
+.show {
+	display: block;
+}
+
+.welcome {
+	background-image: url("Website Background.JPG");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcomeText {
+	width: 100%;
+}
+
+#introduction {
+	padding-left: 11%;
+	padding-top: 35%;
+	font-family: "Poiret One";
+	color: white;
+	font-size: 55px;
+	width: 80%;
+	text-align: center;
+}
+
+#fullname {
+	padding-left: 8%;
+	padding-top: 15%;
+	padding-bottom: 22%;
+	font-family: "Poiret One";
+	color: white;
+	font-size: 60px;
+	width: 85%;
+	text-align: center;
+}
+
+.aboutme {
+	background-image: url("Beach.jpeg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    width: 100%;
+}
+
+.whoiam {
+	width: 100%;
+}
+
+.aboutMeTitles {
+	width: 100%;
+	padding-top: 5%;
+}
+
+.aboutMeTitles h1 {
+	font-family: "Coming Soon";
+	color: black;
+	letter-spacing: 4px;
+	font-size: 30px;
+	text-align: center;
+	background-color: aquamarine;
+	padding: 15px;
+	border-radius: 25px;
+}
+
+.whoiamTitle {
+	width: 30%;
+	float: left;
+	padding-left: 10%;
+}
+
+.aspireTitle {
+	width: 30%;
+	float: left;
+	padding-left: 20%;
+}
+
+.aboutMeContent {
+	width: 100%;
+}
+
+.aboutMeContent p {
+	font-family: "Coming Soon";
+	text-align: center;
+	font-size: 25px;
+	color: black;
+	background-color: azure;
+	border-radius: 25px;
+	padding: 4%;
+}
+
+.firstContents {
+	width: 100%;
+	display: inline-block;
+}
+
+.contentLineOne {
+	width: 30%;
+	float: left;
+	padding-left: 10%;
+	padding-top: 5%;
+}
+
+.careerLineOne {
+	width: 30%;
+	float: left;
+	padding-left: 20%;
+	padding-top: 5%;
+}
+
+.secondContents {
+	width: 100%;
+	display: inline-block;
+}
+
+.contentLineTwo {
+	width: 30%;
+	float: left;
+	padding-left: 10%;
+	padding-top: 5%;
+}
+
+.careerLineTwo {
+	width: 30%;
+	float: left;
+	padding-left: 20%;
+	padding-top: 5%;
+}
+
+.thirdContents {
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 10%;
+}
+
+.contentLineThree {
+	width: 30%;
+	float: left;
+	padding-left: 10%;
+	padding-top: 5%;
+}
+
+.careerLineThree {
+	width: 30%;
+	float: left;
+	padding-left: 20%;
+	padding-top: 5%;
+} 
+
+.workHistory {
+	background-image: url("Toronto.jpeg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.pastWork {
+	width: 100%;
+}
+
+.whatIveDone {
+	width: 50%;
+	padding-left: 30%;
+	padding-top: 8%;
+}
+
+.whatIveDone h3 {
+	font-family: "Montserrat";
+	font-size: 35px;
+	color: white;
+	width: 75%;
+	text-align: center;
+	background-color: cornflowerblue;
+	padding: 3%;
+	border-radius: 25px
+}
+
+.workExperience {
+	font-family: 'Montserrat';
+	color: white;
+}
+
+.workExperience h3 {
+	font-size: 25px;
+	background-color: cornflowerblue;
+	padding: 1%;
+	text-align: center;
+	border-radius: 25px;
+}
+
+.workExperience p {
+	font-size: 13px;
+	background-color: yellowgreen;
+	padding: 3px;
+	padding-left: 1%;
+	padding-right: 1%;
+	border-radius: 25px
+}
+
+.veridayContent {
+	width: 100%;
+	display: inline-block;
+}
+
+.veridayRight {
+	width: 50%;
+	float: right;
+}
+
+.veridayTitle {
+	padding-top: 3%;
+}
+
+#veridayTitle {
+	width: 25%;
+	text-align: center;
+}
+
+.veridayPosition {
+	padding-top: 0.5%;
+}
+
+#veridayPosition {
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    text-align: center;
+    width: 40%;
+}
+
+.veridayDescription {
+	padding-top: 0.5%;
+}
+
+#veridayDescription {
+	width: 60%;
+	background-color: gray;
+	line-height: 30px;
+	text-align: center;
+}
+
+.veridayLeft {
+	float: left;
+	width: 49%;
+}
+
+.veridayPic {
+	margin-left: 67%;
+	margin-top: 3%;
+}
+
+#veridayPic {
+	border-radius: 25px;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+.websiteContent {
+	width: 100%;
+	display: inline-block;
+}
+
+.websiteRight {
+	width: 50%;
+	float: right;
+}
+
+.websiteTitle {
+	padding-top: 3%;
+}
+
+#websiteTitle {
+	width: 42%;
+	text-align: center;
+}
+
+.websitePosition {
+	padding-top: 0.5%;
+}
+
+#websitePosition {
+	-webkit-transition: all .1s ease-in-out;
+    text-align: center;
+    width: 48%;
+}
+
+.websiteDescription {
+	padding-top: 0.5%;
+}
+
+#websiteDescription {
+	width: 38%;
+	background-color: gray;
+	line-height: 30px;
+	text-align: center
+}
+
+.websiteLeft {
+	float: left;
+	width: 49%;
+}
+
+.websitePic {
+	margin-left: 67%;
+	margin-top: 3%;
+}
+
+#websitePic {
+	border-radius: 25px;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+.entsocContent {
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 10%;
+}
+
+.entsocRight {
+	width: 50%;
+	float: right;
+}
+
+.entsocTitle {
+	padding-top: 3%;
+}
+
+#entsocTitle {
+	width: 60%;
+	text-align: center;
+}
+
+.entsocPosition {
+	padding-top: 0.5%;
+}
+
+#entsocPosition {
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    text-align: center;
+    width: 30%;
+}
+
+.entsocDescription {
+	padding-top: 0.5%;
+}
+
+#entsocDescription {
+	width: 38%;
+	background-color: gray;
+	line-height: 30px;
+	text-align: center
+}
+
+.entsocLeft {
+	float: left;
+	width: 49%;
+}
+
+.entsocPic {
+	margin-left: 67%;
+	margin-top: 3%;
+}
+
+#entsocPic {
+	border-radius: 25px;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+.skills {
+	width: 100%;
+	margin-bottom: 10%;
+}
+
+.skillset {
+	width: 100%;
+}
+
+.skillsTitle {
+	width: 22%;
+	padding-left: 39%;
+	padding-top: 10%;
+}
+
+.lineFive {
+	width: 100%;
+}
+
+#linefive {
+	width: 95%;
+	border-color: black;
+}
+
+.skillsetTitle {
+	width: 100%;
+	padding-left: 6%;
+}
+
+.skillset h2 {
+	font-family: "Montserrat";
+	color: black;
+	letter-spacing: 10px;
+	font-size: 30px;
+	width: 85%;
+	text-align: center;
+}
+
+.lineSix {
+	width: 100%;
+}
+
+#linesix {
+	width: 95%;
+	border-color: black;
+}
+
+.skillsContent {
+	width: 100%;
+}
+
+.skillDescription {
+	width: 37%;
+	padding-left: 34%;
+	padding-top: 2%;
+}
+
+#mySkills {
+	font-family: "Montserrat";
+	font-size: 20px;
+	letter-spacing: 2px;
+	width: 83%;
+	text-align: center;
+}
+
+#skillSet {
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+.theSkills p{
+	font-family: "Montserrat";
+	font-size: 30px;
+	letter-spacing: 4px;
+}
+
+.theSkills {
+	width: 100%;
+	display: inline-block;
+	padding-top: 2%;
+}
+
+.skill1 {
+	float: left;
+	padding-left: 15%;
+}
+
+#skill1 {
+	width: 10%;
+}
+
+.skill2 {
+	float: left;
+	padding-left: 10%;
+}
+
+#skill2 {
+	width: 7%;
+}
+
+.skill3 {
+	float: left;
+	padding-left: 10%;
+}
+
+#skill3 {
+	width: 15%;
+}
+
+.skill4 {
+	float: left;
+	padding-left: 10%;
+}
+
+#skill4 {
+	width: 10%;
+}
+
+.skillPictures img {
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+.skillPictures {
+	display: inline-block;
+	width: 100%;
+}
+
+.HTML5 {
+	float: left;
+	padding-top: 1%;
+	padding-left: 12%;
+}
+
+.CSS3 {
+	float: left;
+	padding-top: 1%;
+	padding-left: 5%;
+}
+
+.JavaScript {
+	float: left;
+	padding-left: 7%;
+}
+
+.jQuery {
+	float: left;
+	padding-top: 3%;
+	padding-left: 4%;
+}
+
+.ballFrisbeeGym {
+	background-image: url("plants.jpeg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.recTitle h4 {
+	font-family:'Montserrat';
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+
+.recTitle {
+	width: 100%;
+}
+
+.leisureSpace {
+	width: 26%;
+	padding-top: 8%;
+	padding-left: 37%;
+	padding-bottom: 5%;
+}
+
+.recPics1 {
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 5%;
+}
+
+.pullup1 {
+	float: left;
+	padding-left: 5%;
+}
+
+.pullup2 {
+	float: left;
+	padding-left: 5%;
+}
+
+.pullup3 {
+	float: left;
+	padding-left: 5%;
+}
+
+.pullup4 {
+	float: left;
+	padding-left: 5%;
+}
+
+#soccer {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+#pullup1Colour {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+#frisbee10 {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+#frisbee12 {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+#frisbeeUproar {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+.recPics2 {
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 5%;
+}
+
+.dapper {
+	float: left;
+	padding-left: 5%;
+}
+
+.frisbee {
+	float: left;
+	padding-left: 5%;
+}
+
+.microphone {
+	float: left;
+	padding-left: 5%;
+}
+
+.pingpong {
+	float: left;
+	padding-left: 5%;
+}
+
+#dapper {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#frisbee {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#microphone {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#pingpong {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+.recPics3 {
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 5%;
+}
+
+.flick {
+	float: left;
+	padding-left: 5%;
+}
+
+.flick1 {
+	float: left;
+	padding-left: 5%;
+}
+
+.flick2 {
+	float: left;
+	padding-left: 5%;
+}
+
+.flick3 {
+	float: left;
+	padding-left: 5%;
+}
+
+#flick {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#flick1 {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#flick2 {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#flick3 {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+.contact {
+	width: 100%;
+	margin-top: 5%;
+}
+
+.contactMe {
+	font-family: 'Comfortaa';
+	width: 100%;
+}
+
+.contactMe p {
+	font-size: 20px;
+}
+
+.employmentSearch {
+	padding-left: 30%;
+	padding-bottom: 2%;
+	padding-top: 5%;
+	width: 40%;
+}
+
+#employmentSearch {
+	text-align: center;
+}
+
+.employmentDescription {
+	padding-left: 40%;
+	padding-bottom: 2%;
+	width: 20%;
+}
+
+#employmentDescription {
+	text-align: center;
+}
+
+.reachOut {
+	padding-left: 22%;
+	padding-bottom: 2%;
+	width: 57%;
+}
+
+#reachOut {
+	font-size: 25px;
+	text-align: center;
+}
+
+.contactPics {
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 10%;
+}
+
+.linkedin {
+	float: left;
+	padding-left: 23.5%;
+}
+
+.gmail {
+	float: left;
+	padding-left: 10%;
+}
+
+.piazza {
+	float: left;
+	padding-left: 10%;
+}
+
+#gmail {
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#linkedin {
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#piazza {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
 }
