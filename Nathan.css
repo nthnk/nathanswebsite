@@ -8,7 +8,14 @@ body, html {
 }
 
 .transition {
-    -webkit-transform: scale(1.5); 
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.transition1 {
+	-webkit-transform: scale(1.5); 
     -moz-transform: scale(1.5);
     -o-transform: scale(1.5);
     transform: scale(1.5);
@@ -932,4 +939,19 @@ body, html {
 #piazza {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
+}
+
+@media screen and (max-width: 991px) {
+     /* start of large tablet styles */
+
+}
+
+@media screen and (max-width: 767px) {
+     /* start of medium tablet styles */
+
+}
+
+@media screen and (max-width: 479px) {
+     /* start of phone styles */
+
 }
