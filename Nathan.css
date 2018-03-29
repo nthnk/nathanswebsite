@@ -8,10 +8,10 @@ body, html {
 }
 
 .transition {
-    -webkit-transform: scale(1.1); 
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1.5); 
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 #topBtn {
@@ -485,7 +485,7 @@ body, html {
     -o-transition: all .1s ease-in-out;
     -ms-transition: all .1s ease-in-out;
     text-align: center;
-    width: 48%;
+    width: 30%;
 }
 
 .entsocDescription {
