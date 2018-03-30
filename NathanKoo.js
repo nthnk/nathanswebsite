@@ -66,6 +66,22 @@ $('#dropDownButton').click(function() {
 
 });
 
+$('#mobdropdownContent').hide();
+
+$('#mobdropDownButton').click(function() {
+    // var myClass = $('#dropdownContent').attr("class");
+    // var myClassArray = myClass.split(" ");
+    $('.mobdropdown-content').toggle('slow');
+    // if(myClassArray.includes('hideContent')) {
+    //  $('#dropdownContent').addClass('dropdown-content').removeClass('hideContent');
+    // }
+
+    // else {
+    //  $('#dropdownContent').addClass('hideContent').removeClass('dropdown-content');
+    // }
+
+});
+
 function topBtnEnlarge () {
 	$('#topBtn').hover(function() {
 		$(this).addClass('transition');
@@ -404,9 +420,9 @@ jQueryHover();
 function soccerHover () {
 
 	$('#soccer').hover(function(){
-    	$(this).addClass("transition");
+    	$(this).addClass("transition1");
     	}, function(){
-    $(this).removeClass("transition");
+    $(this).removeClass("transition1");
 	});
 }
 
@@ -415,9 +431,9 @@ soccerHover();
 function frisbee10Hover () {
 
 	$('#frisbee10').hover(function(){
-    	$(this).addClass("transition");
+    	$(this).addClass("transition1");
     	}, function(){
-    $(this).removeClass("transition");
+    $(this).removeClass("transition1");
 	});
 }
 
@@ -426,9 +442,9 @@ frisbee10Hover();
 function frisbee12Hover () {
 
 	$('#frisbee12').hover(function(){
-    	$(this).addClass("transition");
+    	$(this).addClass("transition1");
     	}, function(){
-    $(this).removeClass("transition");
+    $(this).removeClass("transition1");
 	});
 }
 
@@ -437,9 +453,9 @@ frisbee12Hover();
 function frisbeeUproarHover () {
 
 	$('#frisbeeUproar').hover(function(){
-    	$(this).addClass("transition");
+    	$(this).addClass("transition1");
     	}, function(){
-    $(this).removeClass("transition");
+    $(this).removeClass("transition1");
 	});
 }
 
@@ -448,9 +464,9 @@ frisbeeUproarHover();
 function dapperHover () {
 
 	$('#dapper').hover(function(){
-    	$(this).addClass("transition");
+    	$(this).addClass("transition1");
     	}, function(){
-    $(this).removeClass("transition");
+    $(this).removeClass("transition1");
 	});
 }
 
@@ -459,9 +475,9 @@ dapperHover();
 function frisbeeHover () {
 
 	$('#frisbee').hover(function(){
-    	$(this).addClass("transition");
+    	$(this).addClass("transition1");
     	}, function(){
-    $(this).removeClass("transition");
+    $(this).removeClass("transition1");
 	});
 }
 
@@ -470,9 +486,9 @@ frisbeeHover();
 function microphoneHover () {
 
 	$('#microphone').hover(function(){
-    	$(this).addClass("transition");
+    	$(this).addClass("transition1");
     	}, function(){
-    $(this).removeClass("transition");
+    $(this).removeClass("transition1");
 	});
 }
 
@@ -481,9 +497,9 @@ microphoneHover();
 function pingpongHover () {
 
 	$('#pingpong').hover(function(){
-    	$(this).addClass("transition");
+    	$(this).addClass("transition1");
     	}, function(){
-    $(this).removeClass("transition");
+    $(this).removeClass("transition1");
 	});
 }
 
@@ -492,9 +508,9 @@ pingpongHover();
 function flickHover () {
 
 	$('#flick').hover(function(){
-    	$(this).addClass("transition");
+    	$(this).addClass("transition1");
     	}, function(){
-    $(this).removeClass("transition");
+    $(this).removeClass("transition1");
 	});
 }
 
@@ -503,9 +519,9 @@ flickHover();
 function flick1Hover () {
 
 	$('#flick1').hover(function(){
-    	$(this).addClass("transition");
+    	$(this).addClass("transition1");
     	}, function(){
-    $(this).removeClass("transition");
+    $(this).removeClass("transition1");
 	});
 }
 
@@ -514,9 +530,9 @@ flick1Hover();
 function flick2Hover () {
 
 	$('#flick2').hover(function(){
-    	$(this).addClass("transition");
+    	$(this).addClass("transition1");
     	}, function(){
-    $(this).removeClass("transition");
+    $(this).removeClass("transition1");
 	});
 }
 
@@ -525,9 +541,9 @@ flick2Hover();
 function flick3Hover () {
 
 	$('#flick3').hover(function(){
-    	$(this).addClass("transition");
+    	$(this).addClass("transition1");
     	}, function(){
-    $(this).removeClass("transition");
+    $(this).removeClass("transition1");
 	});
 }
 
