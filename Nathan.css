@@ -52,15 +52,16 @@ body, html {
 	font-size: 15px;
 	background-color: lightgrey;
 	position: fixed;
-	top: 12px;
-	left: 1%;
+	top: 0px;
+	left: 0%;
 	padding: 10px;
-	border-radius: 10px;
-	width: 10%;
+	border-radius: 0px;
+	width: 100%;
 	text-align: center;
 	cursor: pointer;
 	z-index: 1;
 	list-style-type: none;
+	border: 1px solid black;
 }
 
 .menu a {
@@ -73,15 +74,15 @@ body, html {
 	font-size: 15px;
 	background-color: lightgrey;
 	padding: 10px;
-	border-radius: 10px;
-	width: 10%;
+	border-radius: 0px;
+	width: 100%;
 	text-align: center;
 	cursor: pointer;
 	position: fixed;
-	left: 1%;
 	text-decoration: none;
 	color: black;
 	z-index: 1;
+	border: 1px solid black;
 }
 
 .hideContent{
@@ -90,32 +91,32 @@ body, html {
 
 #btn1 {
 	position: fixed;
-	top: 65px;
-	left: 1%;
+	top: 40px;
+	left: 0%;
 }
 
 #btn2 {
 	position: fixed;
-	top: 115px;
-	left: 1%;
+	top: 80px;
+	left: 0%;
 }
 
 #btn3 {
 	position: fixed;
-	top: 165px;
-	left: 1%;
+	top: 120px;
+	left: 0%;
 }
 
 #btn4 {
 	position: fixed;
-	top: 215px;
-	left: 1%;
+	top: 160px;
+	left: 0%;
 }
 
 #btn5 {
 	position: fixed;
-	top: 265px;
-	left: 1%;
+	top: 200px;
+	left: 0%;
 }
 
 .menu:hover {
@@ -290,6 +291,10 @@ body, html {
 	padding-left: 20%;
 	padding-top: 5%;
 } 
+
+.mobAboutMe {
+	display: none;
+}
 
 .workHistory {
 	background-image: url("Toronto.jpeg");
@@ -1915,8 +1920,8 @@ body, html {
 #topBtn {
 	display: none;
 	position: fixed;
-	bottom: 20px;
-	left: 94%;
+	bottom: 5px;
+	left: 83%;
 	z-index: 99;
 	border: none;
 	outline: none;
@@ -2072,24 +2077,29 @@ body, html {
 }
 
 .aboutme {
+	display: none;
+}
+
+.mobAboutMe {
+	display: block;
 	background-image: url("Beach.jpeg");
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.7;
     width: 100%;
 }
 
-.whoiam {
+.mobWhoiam {
 	width: 100%;
 }
 
-.aboutMeTitles {
-	width: 100%;
-	padding-top: 5%;
+.mobwhoiamTitle {
+	width: 90%;
+	padding-top: 10%;
+	padding-left: 5%
 }
 
-.aboutMeTitles h1 {
+#mobwhoiamTitle {
 	font-family: "Coming Soon";
 	color: black;
 	letter-spacing: 4px;
@@ -2100,89 +2110,91 @@ body, html {
 	border-radius: 25px;
 }
 
-.whoiamTitle {
-	width: 30%;
-	float: left;
-	padding-left: 10%;
-}
-
-.aspireTitle {
-	width: 30%;
-	float: left;
-	padding-left: 20%;
-}
-
-.aboutMeContent {
+.mobWhoiamContents{
 	width: 100%;
 }
 
-.aboutMeContent p {
+.mobWhoiamContents p {
 	font-family: "Coming Soon";
 	text-align: center;
-	font-size: 25px;
+	font-size: 24px;
 	color: black;
 	background-color: azure;
 	border-radius: 25px;
 	padding: 4%;
 }
 
-.firstContents {
-	width: 100%;
-	display: inline-block;
-}
-
-.contentLineOne {
-	width: 30%;
-	float: left;
+.mobContentLineOne {
+	width: 80%;
 	padding-left: 10%;
 	padding-top: 5%;
 }
 
-.careerLineOne {
-	width: 30%;
-	float: left;
-	padding-left: 20%;
-	padding-top: 5%;
-}
-
-.secondContents {
-	width: 100%;
-	display: inline-block;
-}
-
-.contentLineTwo {
-	width: 30%;
-	float: left;
+.mobContentLineTwo {
+	width: 80%;
 	padding-left: 10%;
 	padding-top: 5%;
 }
 
-.careerLineTwo {
-	width: 30%;
-	float: left;
-	padding-left: 20%;
+.mobContentLineThree {
+	width: 80%;
+	padding-left: 10%;
 	padding-top: 5%;
 }
 
-.thirdContents {
+.mobAspire {
 	width: 100%;
-	display: inline-block;
+}
+
+.mobAspireTitle {
+	width: 90%;
+	padding-top: 10%;
+	padding-left: 5%
+}
+
+#mobAspireTitle {
+	font-family: "Coming Soon";
+	color: black;
+	letter-spacing: 4px;
+	font-size: 28px;
+	text-align: center;
+	background-color: aquamarine;
+	padding: 15px;
+	border-radius: 25px;
+}
+
+.mobAspireContents{
+	width: 100%;
 	padding-bottom: 10%;
 }
 
-.contentLineThree {
-	width: 30%;
-	float: left;
+.mobAspireContents p {
+	font-family: "Coming Soon";
+	text-align: center;
+	font-size: 24px;
+	color: black;
+	background-color: azure;
+	border-radius: 25px;
+	padding: 4%;
+}
+
+.mobCareerLineOne {
+	width: 80%;
 	padding-left: 10%;
 	padding-top: 5%;
 }
 
-.careerLineThree {
-	width: 30%;
-	float: left;
-	padding-left: 20%;
+.mobCareerLineTwo {
+	width: 80%;
+	padding-left: 10%;
 	padding-top: 5%;
-} 
+}
+
+.mobCareerLineThree {
+	width: 80%;
+	padding-left: 10%;
+	padding-top: 5%;
+}
 
 .workHistory {
 	background-image: url("Toronto.jpeg");
