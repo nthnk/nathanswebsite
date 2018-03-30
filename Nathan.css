@@ -1943,7 +1943,7 @@ body, html {
 	background-color: #ed1c1c;
 }
 
-.menu {
+.mobmenu {
 	font-family: 'Montserrat';
 	font-size: 15px;
 	background-color: lightgrey;
@@ -1960,12 +1960,16 @@ body, html {
 	border: 1px solid black;
 }
 
-.menu a {
+#dropdownMenu {
+	display: none;
+}
+
+.mobmenu a {
 	text-decoration: none;
 	color: black;
 }
 
-.dropdown-content a{
+.mobdropdown-content a{
 	font-family: 'Montserrat';
 	font-size: 15px;
 	background-color: lightgrey;
@@ -1981,61 +1985,61 @@ body, html {
 	border: 1px solid black;
 }
 
-.hideContent{
+.hideContent {
 	display: none;
 }
 
-#btn1 {
+#mobbtn1 {
 	position: fixed;
 	top: 40px;
 	left: 0%;
 }
 
-#btn2 {
+#mobbtn2 {
 	position: fixed;
 	top: 80px;
 	left: 0%;
 }
 
-#btn3 {
+#mobbtn3 {
 	position: fixed;
 	top: 120px;
 	left: 0%;
 }
 
-#btn4 {
+#mobbtn4 {
 	position: fixed;
 	top: 160px;
 	left: 0%;
 }
 
-#btn5 {
+#mobbtn5 {
 	position: fixed;
 	top: 200px;
 	left: 0%;
 }
 
-.menu:hover {
+.mobmenu:hover {
 	background-color: #e5eff9;
 }
 
-#btn1:hover {
+#mobbtn1:hover {
 	background-color: #e5eff9;
 }
 
-#btn2:hover {
+#mobbtn2:hover {
 	background-color: #e5eff9;
 }
 
-#btn3:hover {
+#mobbtn3:hover {
 	background-color: #e5eff9;
 }
 
-#btn4:hover {
+#mobbtn4:hover {
 	background-color: #e5eff9;
 }
 
-#btn5:hover {
+#mobbtn5:hover {
 	background-color: #e5eff9;
 }
 
@@ -2197,6 +2201,11 @@ body, html {
 }
 
 .workHistory {
+	display: none;
+}
+
+.mobworkHistory {
+	display: block;
 	background-image: url("Toronto.jpeg");
 	background-attachment: fixed;
     background-position: center;
@@ -2205,19 +2214,19 @@ body, html {
     width: 100%;
 }
 
-.pastWork {
+.mobpastWork {
 	width: 100%;
 }
 
-.whatIveDone {
-	width: 50%;
-	padding-left: 30%;
-	padding-top: 8%;
+.mobwhatIveDone {
+	width: 100%;
+	padding-left: 9%;
+	padding-top: 10%;
 }
 
-.whatIveDone h3 {
+#mobwhativedone {
 	font-family: "Montserrat";
-	font-size: 35px;
+	font-size: 30px;
 	color: white;
 	width: 75%;
 	text-align: center;
@@ -2226,82 +2235,70 @@ body, html {
 	border-radius: 25px
 }
 
-.workExperience {
+.mobworkExperience {
 	font-family: 'Montserrat';
 	color: white;
 }
 
-.workExperience h3 {
-	font-size: 25px;
+.mobworkExperience h3 {
+	font-size: 20px;
 	background-color: cornflowerblue;
-	padding: 1%;
+	padding: 4%;
 	text-align: center;
 	border-radius: 25px;
 }
 
-.workExperience p {
-	font-size: 13px;
-	background-color: yellowgreen;
-	padding: 3px;
-	padding-left: 1%;
-	padding-right: 1%;
-	border-radius: 25px
-}
-
-.veridayContent {
+.mobveridayContent {
 	width: 100%;
 	display: inline-block;
 }
 
-.veridayRight {
+.mobveridayLeft {
 	width: 50%;
-	float: right;
+	float: left;
 }
 
-.veridayTitle {
-	padding-top: 3%;
+.mobveridayTitle {
+	padding-top: 10%;
+	padding-left: 20%;
 }
 
-#veridayTitle {
-	width: 25%;
+#mobveridayTitle {
+	width: 93%;
 	text-align: center;
 }
 
-.veridayPosition {
-	padding-top: 0.5%;
+.mobveridayPosition {
+	padding-top: 3%;
+	padding-left: 20%;
 }
 
-#veridayPosition {
+#mobveridayPosition {
+	font-size: 16px;
+	background-color: yellowgreen;
+	padding: 5%;
+	padding-left: 1%;
+	padding-right: 1%;
+	border-radius: 25px;
 	-webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
     -o-transition: all .1s ease-in-out;
     -ms-transition: all .1s ease-in-out;
     text-align: center;
-    width: 40%;
+    width: 100%;
 }
 
-.veridayDescription {
-	padding-top: 0.5%;
-}
-
-#veridayDescription {
-	width: 60%;
-	background-color: gray;
-	line-height: 30px;
-	text-align: center;
-}
-
-.veridayLeft {
+.mobveridayRight {
 	float: left;
-	width: 49%;
+	width: 50%;
 }
 
-.veridayPic {
-	margin-left: 67%;
-	margin-top: 3%;
+.mobveridayPic {
+	margin-left: 10%;
+	margin-top: 10%;
 }
 
-#veridayPic {
+#mobveridayPic {
 	border-radius: 25px;
 	-webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
@@ -2309,57 +2306,75 @@ body, html {
     -ms-transition: all .1s ease-in-out;
 }
 
-.websiteContent {
+.mobveridayParagraph {
+	width: 100%;
+}
+
+.mobveridayDescription {
+	padding-top: 43%;
+	padding-left: 10%;
+}
+
+#mobveridayDescription {
+	width: 87%;
+	background-color: gray;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 12px;
+}
+
+.mobwebsiteContent {
 	width: 100%;
 	display: inline-block;
 }
 
-.websiteRight {
+.mobwebsiteRight {
 	width: 50%;
 	float: right;
 }
 
-.websiteTitle {
+.mobwebsiteTitle {
 	padding-top: 3%;
 }
 
-#websiteTitle {
+#mobwebsiteTitle {
 	width: 42%;
 	text-align: center;
 }
 
-.websitePosition {
+.mobwebsitePosition {
 	padding-top: 0.5%;
 }
 
-#websitePosition {
+#mobwebsitePosition {
 	-webkit-transition: all .1s ease-in-out;
     text-align: center;
     width: 48%;
 }
 
-.websiteDescription {
+.mobwebsiteDescription {
 	padding-top: 0.5%;
 }
 
-#websiteDescription {
+#mobwebsiteDescription {
 	width: 38%;
 	background-color: gray;
 	line-height: 30px;
 	text-align: center
 }
 
-.websiteLeft {
+.mobwebsiteLeft {
 	float: left;
 	width: 49%;
 }
 
-.websitePic {
+.mobwebsitePic {
 	margin-left: 67%;
 	margin-top: 3%;
 }
 
-#websitePic {
+#mobwebsitePic {
 	border-radius: 25px;
 	-webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
@@ -2367,31 +2382,31 @@ body, html {
     -ms-transition: all .1s ease-in-out;
 }
 
-.entsocContent {
+.mobentsocContent {
 	width: 100%;
 	display: inline-block;
 	padding-bottom: 10%;
 }
 
-.entsocRight {
+.mobentsocRight {
 	width: 50%;
 	float: right;
 }
 
-.entsocTitle {
+.mobentsocTitle {
 	padding-top: 3%;
 }
 
-#entsocTitle {
+#mobentsocTitle {
 	width: 60%;
 	text-align: center;
 }
 
-.entsocPosition {
+.mobentsocPosition {
 	padding-top: 0.5%;
 }
 
-#entsocPosition {
+#mobentsocPosition {
 	-webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
     -o-transition: all .1s ease-in-out;
@@ -2400,28 +2415,28 @@ body, html {
     width: 30%;
 }
 
-.entsocDescription {
+.mobentsocDescription {
 	padding-top: 0.5%;
 }
 
-#entsocDescription {
+#mobentsocDescription {
 	width: 38%;
 	background-color: gray;
 	line-height: 30px;
 	text-align: center
 }
 
-.entsocLeft {
+.mobentsocLeft {
 	float: left;
 	width: 49%;
 }
 
-.entsocPic {
+.mobentsocPic {
 	margin-left: 67%;
 	margin-top: 3%;
 }
 
-#entsocPic {
+#mobentsocPic {
 	border-radius: 25px;
 	-webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
