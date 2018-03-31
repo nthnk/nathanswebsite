@@ -871,6 +871,10 @@ body, html {
 	-webkit-transition: all .1s ease-in-out;
 }
 
+.mobballFrisbeeGym {
+	display: none;
+}
+
 .contact {
 	width: 100%;
 	margin-top: 5%;
@@ -2632,174 +2636,179 @@ body, html {
 	display: none;
 }
 
-.ballFrisbeeGym {
+.mobballFrisbeeGym {
 	background-image: url("plants.jpeg");
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    display: block;
 }
 
-.recTitle h4 {
+.mobrecTitle h4 {
 	font-family:'Montserrat';
-	font-size: 50px;
-	color: white;
+	font-size: 45px;
+	color: black;
 	text-align: center;
 }
 
-.recTitle {
+.mobrecTitle {
 	width: 100%;
 }
 
-.leisureSpace {
-	width: 26%;
-	padding-top: 8%;
-	padding-left: 37%;
+.mobleisureSpace {
+	width: 92%;
+	padding-top: 20%;
+	padding-left: 4%;
 	padding-bottom: 5%;
 }
 
-.recPics1 {
-	width: 100%;
-	display: inline-block;
-	padding-bottom: 5%;
-}
-
-.pullup1 {
-	float: left;
-	padding-left: 5%;
-}
-
-.pullup2 {
-	float: left;
-	padding-left: 5%;
-}
-
-.pullup3 {
-	float: left;
-	padding-left: 5%;
-}
-
-.pullup4 {
-	float: left;
-	padding-left: 5%;
-}
-
-#soccer {
-	border-radius: 10px;
-	-webkit-transition: all .1s ease-in-out;
-}
-
-#pullup1Colour {
-	border-radius: 10px;
-	-webkit-transition: all .1s ease-in-out;
-}
-
-#frisbee10 {
-	border-radius: 10px;
-	-webkit-transition: all .1s ease-in-out;
-}
-
-#frisbee12 {
-	border-radius: 10px;
-	-webkit-transition: all .1s ease-in-out;
-}
-
-#frisbeeUproar {
-	border-radius: 10px;
-	-webkit-transition: all .1s ease-in-out;
-}
-
-.recPics2 {
+.mobrecPics1 {
 	width: 100%;
 	display: inline-block;
 	padding-bottom: 5%;
 }
 
-.dapper {
+.mobpullup1 {
 	float: left;
-	padding-left: 5%;
+	padding-left: 17%;
+	padding-top: 5%;
 }
 
-.frisbee {
+.mobpullup2 {
 	float: left;
-	padding-left: 5%;
+	padding-left: 17%;
+	padding-top: 5%;
 }
 
-.microphone {
+.mobpullup3 {
 	float: left;
-	padding-left: 5%;
+	padding-left: 17%;
+	padding-top: 5%;
 }
 
-.pingpong {
+.mobpullup4 {
 	float: left;
-	padding-left: 5%;
+	padding-left: 17%;
+	padding-top: 5%;
 }
 
-#dapper {
+#mobsoccer {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
 }
 
-#frisbee {
+#mobpullup1Colour {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
 }
 
-#microphone {
+#mobfrisbee10 {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
 }
 
-#pingpong {
+#mobfrisbee12 {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
 }
 
-.recPics3 {
-	width: 100%;
-	display: inline-block;
-	padding-bottom: 5%;
+#mobfrisbeeUproar {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
 }
 
-.flick {
+.mobdapper {
 	float: left;
-	padding-left: 5%;
+	padding-left: 17%;
+	padding-top: 5%;
 }
 
-.flick1 {
+.mobfrisbee {
 	float: left;
-	padding-left: 5%;
+	padding-left: 17%;
+	padding-top: 5%;
 }
 
-.flick2 {
+.mobmicrophone {
 	float: left;
-	padding-left: 5%;
+	padding-left: 17%;
+	padding-top: 5%;
 }
 
-.flick3 {
+.mobpingpong {
 	float: left;
-	padding-left: 5%;
+	padding-left: 17%;
+	padding-top: 5%;
 }
 
-#flick {
+#mobdapper {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
 }
 
-#flick1 {
+#mobfrisbee {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
 }
 
-#flick2 {
+#mobmicrophone {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
 }
 
-#flick3 {
+#mobpingpong {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
+}
+
+.mobflick {
+	float: left;
+	padding-left: 17%;
+	padding-top: 5%;
+}
+
+.mobflick1 {
+	float: left;
+	padding-left: 17%;
+	padding-top: 5%;
+}
+
+.mobflick2 {
+	float: left;
+	padding-left: 17%;
+	padding-top: 5%;
+}
+
+.mobflick3 {
+	float: left;
+	padding-left: 17%;
+	padding-top: 5%;
+}
+
+#mobflick {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#mobflick1 {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#mobflick2 {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+#mobflick3 {
+	border-radius: 10px;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+.ballFrisbeeGym {
+	display: none;
 }
 
 .contact {
