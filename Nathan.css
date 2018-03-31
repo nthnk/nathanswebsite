@@ -524,9 +524,10 @@ body, html {
 #entsocPic {
 	border-radius: 25px;
 	-webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
+}
+
+.mobworkHistory {
+	display: none;
 }
 
 .skills {
@@ -682,6 +683,10 @@ body, html {
 	float: left;
 	padding-top: 3%;
 	padding-left: 4%;
+}
+
+.mobskills {
+	display: none;
 }
 
 .ballFrisbeeGym {
@@ -2241,7 +2246,7 @@ body, html {
 }
 
 .mobworkExperience h3 {
-	font-size: 20px;
+	font-size: 14px;
 	background-color: cornflowerblue;
 	padding: 4%;
 	text-align: center;
@@ -2274,16 +2279,13 @@ body, html {
 }
 
 #mobveridayPosition {
-	font-size: 16px;
+	font-size: 12px;
 	background-color: yellowgreen;
 	padding: 5%;
 	padding-left: 1%;
 	padding-right: 1%;
 	border-radius: 25px;
 	-webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
     text-align: center;
     width: 100%;
 }
@@ -2311,12 +2313,12 @@ body, html {
 }
 
 .mobveridayDescription {
-	padding-top: 43%;
+	padding-top: 55%;
 	padding-left: 10%;
 }
 
 #mobveridayDescription {
-	width: 87%;
+	width: 88%;
 	background-color: gray;
 	line-height: 30px;
 	text-align: center;
@@ -2329,57 +2331,68 @@ body, html {
 	display: inline-block;
 }
 
-.mobwebsiteRight {
+.mobwebsiteLeft {
+	float: left;
 	width: 50%;
-	float: right;
 }
 
 .mobwebsiteTitle {
-	padding-top: 3%;
+	padding-top: 20%;
+	padding-left: 20%;
 }
 
 #mobwebsiteTitle {
-	width: 42%;
+	width: 92%;
 	text-align: center;
 }
 
 .mobwebsitePosition {
-	padding-top: 0.5%;
+	padding-top: 3%;
+	padding-left: 20%;
 }
 
 #mobwebsitePosition {
+	font-size: 13px;
+	background-color: yellowgreen;
+	padding: 5%;
+	padding-left: 1%;
+	padding-right: 1%;
+	border-radius: 25px;
 	-webkit-transition: all .1s ease-in-out;
     text-align: center;
-    width: 48%;
+    width: 100%;
 }
 
-.mobwebsiteDescription {
-	padding-top: 0.5%;
-}
-
-#mobwebsiteDescription {
-	width: 38%;
-	background-color: gray;
-	line-height: 30px;
-	text-align: center
-}
-
-.mobwebsiteLeft {
+.mobwebsiteRight {
+	width: 50%;
 	float: left;
-	width: 49%;
 }
 
 .mobwebsitePic {
-	margin-left: 67%;
-	margin-top: 3%;
+	margin-left: 10%;
+	margin-top: 20%;
 }
 
 #mobwebsitePic {
 	border-radius: 25px;
 	-webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
+}
+
+.mobwebsiteParagraph {
+	width: 100%;
+}
+
+.mobwebsiteDescription {
+	padding-top: 60%;
+	padding-left: 10%;
+}
+
+#mobwebsiteDescription {
+	width: 88%;
+	background-color: gray;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 20px;
 }
 
 .mobentsocContent {
@@ -2388,92 +2401,100 @@ body, html {
 	padding-bottom: 10%;
 }
 
-.mobentsocRight {
+.mobentsocLeft {
 	width: 50%;
-	float: right;
+	float: left;
 }
 
 .mobentsocTitle {
-	padding-top: 3%;
+	padding-top: 20%;
+	padding-left: 20%;
 }
 
 #mobentsocTitle {
-	width: 60%;
+	width: 90%;
 	text-align: center;
 }
 
 .mobentsocPosition {
-	padding-top: 0.5%;
+	padding-top: 3%;
+	padding-left: 20%;
 }
 
 #mobentsocPosition {
+	font-size: 13px;
+	background-color: yellowgreen;
+	padding: 5%;
+	padding-left: 1%;
+	padding-right: 1%;
+	border-radius: 25px;
 	-webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
     text-align: center;
-    width: 30%;
+    width: 97%;
 }
 
-.mobentsocDescription {
-	padding-top: 0.5%;
-}
-
-#mobentsocDescription {
-	width: 38%;
-	background-color: gray;
-	line-height: 30px;
-	text-align: center
-}
-
-.mobentsocLeft {
+.mobentsocRight {
 	float: left;
-	width: 49%;
+	width: 50%;
 }
 
 .mobentsocPic {
-	margin-left: 67%;
-	margin-top: 3%;
+	padding-left: 10%;
+	padding-top: 20%;
 }
 
 #mobentsocPic {
 	border-radius: 25px;
 	-webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
 }
 
-.skills {
+.mobentsocDescription {
+	padding-top: 60%;
+	padding-left: 10%;
+}
+
+#mobentsocDescription {
+	width: 97%;
+	background-color: gray;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 15px;
+}
+
+.mobskills {
 	width: 100%;
-	margin-bottom: 10%;
+	padding-bottom: 15%;
+	display: block;
 }
 
-.skillset {
+.mobskillset {
 	width: 100%;
 }
 
-.skillsTitle {
-	width: 22%;
-	padding-left: 39%;
-	padding-top: 10%;
+.mobskillsTitle {
+	width: 83%;
+	padding-left: 10%;
+	padding-top: 20%;
 }
 
-.lineFive {
+.moblineFive {
 	width: 100%;
 }
 
-#linefive {
+#moblinefive {
 	width: 95%;
 	border-color: black;
 }
 
-.skillsetTitle {
+.mobskillsetTitle {
 	width: 100%;
-	padding-left: 6%;
+	padding-left: 7%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
-.skillset h2 {
+.mobskillset h2 {
 	font-family: "Montserrat";
 	color: black;
 	letter-spacing: 10px;
@@ -2482,121 +2503,133 @@ body, html {
 	text-align: center;
 }
 
-.lineSix {
+.moblineSix {
 	width: 100%;
 }
 
-#linesix {
+#moblinesix {
 	width: 95%;
 	border-color: black;
 }
 
-.skillsContent {
+.mobskillsContent {
 	width: 100%;
 }
 
-.skillDescription {
-	width: 37%;
-	padding-left: 34%;
-	padding-top: 2%;
+.mobskillDescription {
+	width: 90%;
+	padding-left: 5%;
+	padding-top: 5%;
 }
 
-#mySkills {
+#mobmySkills {
 	font-family: "Montserrat";
-	font-size: 20px;
+	font-size: 15px;
 	letter-spacing: 2px;
-	width: 83%;
+	width: 100%;
 	text-align: center;
 }
 
-#skillSet {
+#mobskillSet {
 	-webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
 }
 
-.theSkills p{
+.mobtheSkills p{
 	font-family: "Montserrat";
-	font-size: 30px;
+	font-size: 20px;
 	letter-spacing: 4px;
 }
 
-.theSkills {
+.mobtheSkills {
 	width: 100%;
 	display: inline-block;
 	padding-top: 2%;
 }
 
-.skill1 {
+.mobskill1and2 {
+	display: inline-block;
+	width: 100%;
+	padding-top: 2%;
+	padding-left: 15%;
+}
+
+.mobskill1 {
+	float: left;
+}
+
+#mobskill1 {
+	width: 10%;
+}
+
+.mobskill2 {
+	float: left;
+	padding-left: 25%;
+}
+
+#mobskill2 {
+	width: 7%;
+}
+
+.mobskill1and2pic{
+	display: inline-block;
+	padding-top: 4%;
+	padding-left: 7%;
+}
+
+.mobHTML5 {
+	float: left;
+}
+
+.mobCSS3 {
 	float: left;
 	padding-left: 15%;
 }
 
-#skill1 {
-	width: 10%;
+.mobskill3and4 {
+	display: inline-block;
+	padding-left: 9%;
+	padding-top: 2%;
 }
 
-.skill2 {
+.mobskill3 {
 	float: left;
-	padding-left: 10%;
 }
 
-#skill2 {
-	width: 7%;
-}
-
-.skill3 {
-	float: left;
-	padding-left: 10%;
-}
-
-#skill3 {
+#mobskill3 {
 	width: 15%;
 }
 
-.skill4 {
+.mobskill4 {
 	float: left;
-	padding-left: 10%;
+	padding-left: 22%;
 }
 
-#skill4 {
+#mobskill4 {
 	width: 10%;
 }
 
-.skillPictures img {
-	-webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
-}
-
-.skillPictures {
+.mobskill3and4pic {
 	display: inline-block;
-	width: 100%;
+	padding-top: 4%;
+	padding-left: 6%;
 }
 
-.HTML5 {
+.mobJavaScript {
 	float: left;
-	padding-top: 1%;
-	padding-left: 12%;
 }
 
-.CSS3 {
+.mobjQuery {
 	float: left;
-	padding-top: 1%;
-	padding-left: 5%;
+	padding-top: 15%;
+	padding-left: 2%;
 }
 
-.JavaScript {
-	float: left;
-	padding-left: 7%;
+.mobskillPictures img {
+	-webkit-transition: all .1s ease-in-out;
 }
 
-.jQuery {
-	float: left;
-	padding-top: 3%;
-	padding-left: 4%;
+.skills {
+	display: none;
 }
 
 .ballFrisbeeGym {
@@ -2655,33 +2688,21 @@ body, html {
 #soccer {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
 }
 
 #pullup1Colour {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
 }
 
 #frisbee10 {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
 }
 
 #frisbee12 {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
 }
 
 #frisbeeUproar {
