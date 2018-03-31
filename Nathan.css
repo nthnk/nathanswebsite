@@ -1961,7 +1961,7 @@ body, html {
 	left: 0%;
 	padding: 10px;
 	border-radius: 0px;
-	width: 95%;
+	width: 94%;
 	text-align: center;
 	cursor: pointer;
 	z-index: 1;
@@ -2056,37 +2056,39 @@ body, html {
 	display: block;
 }
 
-.welcome {
+.mobwelcome {
 	background-image: url("Website Background.JPG");
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 50%;
 }
 
-.welcomeText {
+.mobwelcomeText {
 	width: 100%;
 }
 
-#introduction {
-	padding-left: 11%;
+#mobintroduction {
 	padding-top: 35%;
 	font-family: "Poiret One";
 	color: white;
 	font-size: 55px;
-	width: 80%;
+	width: 100%;
 	text-align: center;
 }
 
-#fullname {
-	padding-left: 8%;
+#mobfullname {
 	padding-top: 15%;
-	padding-bottom: 22%;
 	font-family: "Poiret One";
 	color: white;
-	font-size: 60px;
-	width: 85%;
+	font-size: 52px;
+	width: 100%;
 	text-align: center;
+}
+
+.welcome {
+	display: none;
 }
 
 .aboutme {
@@ -2228,16 +2230,16 @@ body, html {
 }
 
 .mobwhatIveDone {
-	width: 100%;
-	padding-left: 9%;
+	width: 83%;
+	padding-left: 6%;
 	padding-top: 10%;
 }
 
 #mobwhativedone {
 	font-family: "Montserrat";
-	font-size: 30px;
+	font-size: 28px;
 	color: white;
-	width: 75%;
+	width: 100%;
 	text-align: center;
 	background-color: cornflowerblue;
 	padding: 3%;
@@ -2552,7 +2554,7 @@ body, html {
 
 .mobskill1and2 {
 	display: inline-block;
-	width: 100%;
+	width: 85%;
 	padding-top: 2%;
 	padding-left: 15%;
 }
@@ -2785,6 +2787,7 @@ body, html {
 	float: left;
 	padding-left: 17%;
 	padding-top: 5%;
+	padding-bottom: 10%;
 }
 
 #mobflick {
@@ -2811,83 +2814,86 @@ body, html {
 	display: none;
 }
 
-.contact {
+.mobcontact {
 	width: 100%;
-	margin-top: 5%;
 }
 
-.contactMe {
+.mobcontactMe {
 	font-family: 'Comfortaa';
 	width: 100%;
 }
 
-.contactMe p {
+.mobcontactMe p {
 	font-size: 20px;
 }
 
-.employmentSearch {
-	padding-left: 30%;
-	padding-bottom: 2%;
-	padding-top: 5%;
-	width: 40%;
+.mobemploymentSearch {
+	padding-left: 10%;
+	padding-bottom: 5%;
+	padding-top: 15%;
+	width: 80%;
+	line-height: 40px;
 }
 
-#employmentSearch {
+#mobemploymentSearch {
 	text-align: center;
 }
 
-.employmentDescription {
-	padding-left: 40%;
-	padding-bottom: 2%;
-	width: 20%;
+.mobemploymentDescription {
+	padding-left: 16%;
+	padding-bottom: 5%;
+	width: 67%;
 }
 
-#employmentDescription {
+#mobemploymentDescription {
 	text-align: center;
 }
 
-.reachOut {
-	padding-left: 22%;
-	padding-bottom: 2%;
-	width: 57%;
+.mobreachOut {
+	padding-bottom: 10%;
+	width: 100%;
 }
 
-#reachOut {
-	font-size: 25px;
+#mobreachOut {
+	font-size: 20px;
 	text-align: center;
 }
 
-.contactPics {
+.mobcontactPics {
 	width: 100%;
 	display: inline-block;
-	padding-bottom: 10%;
+	padding-bottom: 15%;
 }
 
-.linkedin {
-	float: left;
-	padding-left: 23.5%;
-}
-
-.gmail {
+.moblinkedin {
 	float: left;
 	padding-left: 10%;
 }
 
-.piazza {
+.mobgmail {
 	float: left;
 	padding-left: 10%;
 }
 
-#gmail {
+.mobpiazza {
+	float: left;
+	padding-left: 10%;
+}
+
+#mobgmail {
 	-webkit-transition: all .1s ease-in-out;
 }
 
-#linkedin {
+#moblinkedin {
 	-webkit-transition: all .1s ease-in-out;
 }
 
-#piazza {
+#mobpiazza {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
+}
+
+.contact {
+	display: none;
 }
 }
