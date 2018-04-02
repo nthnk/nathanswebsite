@@ -179,6 +179,10 @@ body, html {
 	width: 50%;
 }
 
+.mobwelcome {
+	display: none;
+}
+
 .aboutme {
 	background-image: url("Beach.jpeg");
 	background-position: center;
@@ -701,7 +705,7 @@ body, html {
 .recTitle h4 {
 	font-family:'Montserrat';
 	font-size: 50px;
-	color: white;
+	color: black;
 	text-align: center;
 }
 
@@ -722,107 +726,199 @@ body, html {
 	padding-bottom: 5%;
 }
 
+.pullupOne {
+	padding-left: 5%;
+}
+
 .pullup1 {
 	float: left;
 	padding-left: 5%;
+	background-image: url('pullup1 b&w.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pullupTwo {
+	padding-left: 28.5%;
 }
 
 .pullup2 {
 	float: left;
 	padding-left: 5%;
+	background-image: url('pullup2 b&w.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pullupThree {
+	padding-left: 52%;
 }
 
 .pullup3 {
 	float: left;
 	padding-left: 5%;
+	background-image: url('pullup3 b&w.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pullupFour {
+	padding-left: 76%;
 }
 
 .pullup4 {
 	float: left;
 	padding-left: 5%;
+	background-image: url('pullup4 b&w.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #soccer {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
+	width: 13.5%;
+	height: 250px;
 }
 
-#pullup1Colour {
-	border-radius: 10px;
-	-webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
+#soccer:hover {
+	background-image: url('pullup1.jpg');
 }
 
 #frisbee10 {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
+	width: 20.5%;
+	height: 250px;
+}
+
+#frisbee10:hover {
+	background-image: url('pullup2.jpg');
 }
 
 #frisbee12 {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
+    width: 33%;
+    height: 250px;
 }
 
-#frisbeeUproar {
+#frisbee12:hover {
+	background-image: url('pullup3.jpg');
+}
+
+#pullup4 {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
+    width: 70%;
+    height: 250px;
+}
+
+#pullup4:hover {
+	background-image: url('pullup4.jpg');
 }
 
 .recPics2 {
 	width: 100%;
 	display: inline-block;
-	padding-bottom: 5%;
+	padding-bottom: 7%;
+	padding-top: 1%;
+}
+
+.dapperContainer {
+	padding-left: 5%;
 }
 
 .dapper {
 	float: left;
-	padding-left: 5%;
+	background-image: url('dapper b&w.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frisbeeContainer {
+	padding-left: 28.5%;
 }
 
 .frisbee {
 	float: left;
-	padding-left: 5%;
+	background-image: url('frisbee b&w.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.microphoneContainer {
+	padding-left: 52%;
 }
 
 .microphone {
 	float: left;
-	padding-left: 5%;
+	background-image: url('microphone b&w.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pingpongContainer {
+	padding-left: 76%;
 }
 
 .pingpong {
 	float: left;
-	padding-left: 5%;
+	background-image: url('pingpong b&w.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #dapper {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
+	width: 18.5%;
+	height: 275px;
+}
+
+#dapper:hover {
+	background-image: url('dapper.jpg');
 }
 
 #frisbee {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
+	width: 25.5%;
+	height: 275px;
+}
+
+#frisbee:hover {
+	background-image: url('frisbee colour.jpg');
 }
 
 #microphone {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
+	width: 38.5%;
+	height: 275px;
+}
+
+#microphone:hover {
+	background-image: url('microphone.jpg');
 }
 
 #pingpong {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
+	width: 75%;
+	height: 275px;
+}
+
+#pingpong:hover {
+	background-image: url('pingpong.jpg');
 }
 
 .recPics3 {
@@ -831,44 +927,96 @@ body, html {
 	padding-bottom: 5%;
 }
 
+.flickContainer {
+	padding-left: 5%;
+}
+
 .flick {
 	float: left;
-	padding-left: 5%;
+	background-image: url('flick b&w.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flick1Container {
+	padding-left: 28.5%;
 }
 
 .flick1 {
 	float: left;
-	padding-left: 5%;
+	background-image: url('flick1 b&w.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flick2Container {
+	padding-left: 52%;
 }
 
 .flick2 {
 	float: left;
-	padding-left: 5%;
+	background-image: url('flick2 b&w.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flick3Container {
+	padding-left: 76%;
 }
 
 .flick3 {
 	float: left;
-	padding-left: 5%;
+	background-image: url('flick3 b&w.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #flick {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
+	width: 18.5%;
+	height: 300px;
+}
+
+#flick:hover {
+	background-image: url('flick.jpg');
 }
 
 #flick1 {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
+	width: 25.5%;
+	height: 300px;
+}
+
+#flick1:hover {
+	background-image: url('flick1.jpg');
 }
 
 #flick2 {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
+	width: 38.5%;
+	height: 300px;
+}
+
+#flick2:hover {
+	background-image: url('flick2.jpg');
 }
 
 #flick3 {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
+	width: 75%;
+	height: 300px;
+}
+
+#flick3:hover {
+	background-image: url('flick3.jpg');
 }
 
 .mobballFrisbeeGym {
@@ -953,6 +1101,10 @@ body, html {
 #piazza {
 	border-radius: 10px;
 	-webkit-transition: all .1s ease-in-out;
+}
+
+.mobcontact {
+	display: none;
 }
 
 @media screen and (max-width: 991px) {

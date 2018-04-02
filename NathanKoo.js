@@ -452,7 +452,7 @@ frisbee12Hover();
 
 function frisbeeUproarHover () {
 
-	$('#frisbeeUproar').hover(function(){
+	$('#pullup4').hover(function(){
     	$(this).addClass("transition1");
     	}, function(){
     $(this).removeClass("transition1");
