@@ -2215,6 +2215,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 50%;
+    display: block;
 }
 
 .mobwelcomeText {
@@ -2968,6 +2969,7 @@ body, html {
 
 .mobcontact {
 	width: 100%;
+	display: block;
 }
 
 .mobcontactMe {
